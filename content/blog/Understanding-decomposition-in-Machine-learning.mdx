@@ -1,0 +1,116 @@
+---
+title: Understanding decomposition in Machine learning 
+description: This is our first blog post. Really cool
+date: 2024-07-22
+tags: ["productifity", "blog"]
+published: true
+---
+
+![Frame 10.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-bCUGXSGh8Q/4b2787193c4d7b95b4a3d659e2893f184190362868baf86e80e6d3b153ab55a1307d008f0d093b1b95e992de15482b3c8bdab24ce472dd86f7741ad11826380e3d9400060faec5e9cb2dbb18e562129ac1c74ed5bc8e5051de8f6722b474c01496938e84)
+
+Untuk memecahkan masalah yang kompleks, salah satu pendekatan umum yang efektif adalah dengan menguraikannya menjadi submasalah yang lebih kecil, tidak terlalu rumit, dan supaya lebih mudah dikelola. Proses ini di dalam computer science, disebut problem decomposition. [Decomposition](https://en.wikipedia.org/wiki/Decomposition_(computer_science)) sendiri dalam ilmu komputer adalah proses memecah masalah atau sistem yang kompleks menjadi beberapa bagian yang lebih mudah untuk dipahami, diprogram, dan dianalisa.
+
+## Decomposition in Machine learning
+
+![Frame 11.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-uX3RpCjmMq/089dda9a443532b95cc1d918efe1113c11493c19e340ef7e5a5cd977e354cfb13595aada70b2e5195c8dfa2a29ea004857a622839e8b8dcd34e0fe8fb2f0aa7ecf0b0153f3f131fa13550b66d29a2eb078136cc12c07d10a96377da107d26e4f6b4894e9)
+
+Di dalam [Interpretable Machine Learning](https://christophmolnar.com/books/interpretable-machine-learning/) terdapat Model Agnostic Method, metode ini bersifat fleksibel yang artinya dapat digunakan di berbagai model. Artinya si machine learning engineer dapat dengan bebas menggunakan model machine learning apa pun ketika metode interpretasi dapat diterapkan ke model. Hal ini merupakan penerapan Functional Decomposition. Decomposition sendiri dalam machine learning adalah metode unsupervised learning yang melibatkan pemecahan masalah yang kompleks menjadi sub-masalah yang lebih kecil. Dalam proses data preprocessing metode ini mereduksi dimensi dengan memecah training set menjadi sub-training set yang lebih kecil. Dengan ini, kita akan lebih mudah memahami cara kerja masalah dan bagaimana komponen yang berbeda berinteraksi, Menemukan solusi untuk masalah tersebut, Sehingga dapat meningkatkan kinerja model machine learning.
+
+## Introduction PCA
+
+Salah satu metode decomposition yang populer adalah PCA, metode ini mereduksi dimensi dengan mengubah kumpulan variabel besar menjadi variabel yang lebih kecil, namun mempertahankan informasi dari data besar tersebut. Simplenya, PCA membuat data yang kompleks menjadi lebih sederhana dengan mengambil banyak informasi dan menemukan bagian yang paling penting.
+
+PCA biasa dipakai pada Desicion Tree, Neural Network. Metode ini bisa dipakai ketika kita ingin visualisasi yang lebih sederhana, mengatasi terlalu banyak feature, hingga mempercepat training sebuah model
+
+Perlu dicatat bahwa metode ini hanya bekerja dalam data yang bersifat linear([linear data](https://www.kdnuggets.com/2022/07/linear-machine-learning-algorithms-overview.html)).
+
+![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-jaSkm08DXB/502b16644a61cf787624176a600f48aa80b6ba7d41c85a34afd3ec54c91be6671b0ccd36deb74b05eddd9fda0978ed0954886a65d92433fe5e456cc9d91fc7d57652d21c5c47dff9cc3fd5a58b4220a18eb5a7a9fb268cc2762e2ce01609de7fca5deadd)
+
+PCA menangkap variabel dominan dari dataset (lower variance dimension). 3D dataset akan kehilangan banyak inforamasi ketika dipreyeksikan ke dalam 2D. Image by Duke Course Notes, Cynthia Rudin
+
+Algoritma Principal Component Analysis didasarkan dari teori matematika:
+
+- Variance dan Convariance
+- Eigen Vectors dan Eigen values
+
+Dari dasar matematika tersebut kemudian dikembangkan lagi, menjadi fungsi PCA yang kurang lebih seperti ini:
+
+![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-y0ObaH01oH/093abe1fd3f52c1542a883b23c3f2c8c3b8e76090f882c24846c28eb01a1d53e8bd4ffdb0494f3b9478cb2ae7f8dbd198cba45ed87417627f5801a74b591d1c0fab788c331c43169945735052b1e1280f8b3418456b38f7a5556c6517ccd6bc23e300022)
+
+Detailnya bisa anda cek:
+
+[https://scikit-learn.org/stable/modules/classes.html#module-sklearn.decomposition](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.decomposition)
+
+[https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
+
+### Principal Component Analysis (PCA) with Scikit-Learn
+
+Setelah kita memahami PCA, selanjunya pengimplementasikan PCA menggunakan Python dengan menggunakan library Scikit Learn. Dataset yang akan kita pakai kali ini yaitu wine dataset.
+
+1. Pertama kita import dataset lalu bagi menjadi input dan label
+
+```Python
+#import library
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+df = pd.read_csv("wine.csv")
+inputs = df.iloc[:, 0:13]
+labels = df.iloc[:,0]
+inputs
+```
+![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-BQs_vi82p1/110bea477df47c13dd07cab59cb467450e736ccc08a692f5ca50e0fb85ea8e6b06d8579bbec737bed23050374dd5a45ad9a4fdda6283dba21cebd6ab9c5a51f450adb8eb2e623289bfeefa2b68c124e95267f4a4d05ffba48a21f9cbb56d2e20264d845c)
+
+2. Sebelum menerapkan PCA analysis, kita perlu menerapkan formula standarisasi, yaitu mengurangi dengan nilai rata rata pada setiap attribut lalu dibagi dengan variansinya.
+
+![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-Emkh0xNaks/ee442c95901dc846628df30671a53027105b1734bb90ed746a46341949001bf1719a299ff4e3b6ac10a43baa093a9869bc5e40c5f997628ce5b23d1b6418fae788239edc12555eb2aa6aa68f438e04e99a663ad22ed98ba5f756e7ce394c51e9831a6a3a)
+
+Di scikit learn sudah terdapat library yang secara otomatis mengkalkulasi, yaitu dengan menggunakan [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) untuk data preprocessing, selain menghapus rata-rata tetapi juga atribut juga mengukur skala atribut yang sesuai.
+```Python
+#Normalize data
+from sklearn.preprocessing import StandardScaler
+x1 = StandardScaler().fit_transform(inputs)
+x1
+```
+  
+```Python
+#Penerapan PCA
+from sklearn.decomposition import PCA
+pca = PCA()
+wine = pca.fit_transform(x1) 
+
+print(wine.shape)
+print(pca.explained_variance_)
+print(pca.explained_variance_ratio_)
+```
+
+3.Hasilnya adalah 1 atribut memiliki variance sebesar 5.224, yang berarti atribut tersebut menyimpan informasi yang tinggi dan jauh lebih signifikan dari atribut lain.
+
+Perhatikan bagaimana langkah-langkah dalam analisis komponen utama seperti menghitung matriks kovarians, melakukan eigendekomposisi atau dekomposisi nilai tunggal pada matriks kovarians untuk mendapatkan komponen utama, semuanya telah diabstraksikan ketika kita menggunakan implementasi PCA scikit-learn.
+
+3. Selanjutnya adalah kita analisa principal components berdasarkan variansi
+
+```Python
+import matplotlib.pyplot as plt
+figure = plt.figure()
+ax = plt.gca()
+plt.plot(pca.explained_variance_, color='red', linestyle='dotted')
+ax.set_title("Scree plot")
+ax.set_xlabel("Index of principal components")
+ax.set_ylabel("The explained varaince")
+```
+Cara mengurutkan principal component melalui pengurutan nilai eigen nya. Jadi setelah kita mendapatkan pasangan vektor eigen dan nilai eigen. Nilai eigen tersebut diurutkan mulai dari yang terbesar ke yang terkecil vektor eigennya juga mengikuti. Misalnya jika kita memperoleh A1 > maka eigenvector yang berkorespodensi dengan A1 akan menjadi principal component (PCI) sedangkan eigenvector kedua akan menjadi PC2. Setelah mendapatkan principal component, untuk menghitung pesentase dari variansi (informasi) yang dihasilkan dari tiap komponen, kita dapat membagi eigen value dari setiap komponen dengan total semua eigenvalue.
+
+Berikut perbandingan grafik Original data → Standarization → Principal Component
+
+![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-jXjgTp9exq/1980683980f175ca2ac9d2a92c67cf50c53b6a55dac6efd3f20ae21155b015883e2e61ad8abb802aebc7eadaee762d3a788dddb39b731fec4009d972a8eef47ee576acdec91b1ff87b84581fc56e4bab787b3635a45b6cae9e42200501f34392be1a21f1)![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-Q--SqLaVa4/b501733769a9f422ed24cb87db649f27f8c2868f02675d93c0953b78a952502c9736639a70adbe282cf78af44d6c36cebaa344e798af9ef621b434b13ee40dbc425da42e9e100c54e4e9e972ea39e17b5f855c0509a5e3c5682f926618c8d62ca4ec2289)
+
+  
+
+Python, Scikit learn, dan PCA adalah hal penting yang perlu dipelajari dalam data science, untuk kamu yang ingin belajar lebih lanjut bisa kunjungi bisa ai academy, disana dipelajari dari awal Reduksi dimensi dengan PCA
+
+/pamer dikit ga ngaruh
+
+Detail Source Code bisa anda lihat disini: [https://github.com/wahyudesu/Scikit_learn](https://github.com/wahyudesu/Scikit_learn)
+
+Terima kasih telah meluangkan waktu untuk membaca artikel ini hingga akhir. I tried my best to keep it short and simple keeping in mind to use this code in our daily life. Jika ada yang kurang dipahami atau memiliki pertanyaan lebih lanjut, jangan sungkan untuk menghubungi social contact saya. Terima kasih lagi dan semoga harimu menyenangkan!
