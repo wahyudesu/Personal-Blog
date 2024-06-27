@@ -8,6 +8,8 @@
 - [x] pagination
 - [x] SEO
 - [x] Toggle Report 
+- [x] Tag
+- [ ] Fill about page
 - [ ] Fix content .mdx in obsidian
 - [ ] Image in mdx
 - [ ] Fix design PostItem.tsx
