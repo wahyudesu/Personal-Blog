@@ -10,6 +10,9 @@ interface PostItemProps {
   description?: string;
   date: string;
   tags?: Array<string>;
+  image?: string;
+  read?: number;
+
 }
 
 export function PostItem({
@@ -18,6 +21,8 @@ export function PostItem({
   description,
   date,
   tags,
+  image,
+  read
 }: PostItemProps) {
   return (
     <article className="flex flex-col gap-2 border-border border-b py-3">
@@ -36,8 +41,9 @@ export function PostItem({
         <dl>
           <dt className="sr-only">Published On</dt>
           <dd className="text-sm sm:text-base font-medium flex items-center gap-1">
-            <Calendar className="h-4 w-4" />
-            <time dateTime={date}>{formatDate(date)}</time>
+            {/* <Calendar className="h-4 w-4" /> */}
+            <time className="max-w-none" dateTime={date}>{formatDate(date)} |</time>
+            <div className="max-w-none">{read} min read </div>
           </dd>
         </dl>
         <Link

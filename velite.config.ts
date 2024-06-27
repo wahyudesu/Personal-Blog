@@ -20,6 +20,7 @@ const posts = defineCollection({
       published: s.boolean().default(true),
       tags: s.array(s.string()).optional(),
       image: s.string().max(99).optional(),
+      read: s.number().optional(),
       body: s.mdx(),
     })
     .transform(computedFields),
