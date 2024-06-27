@@ -10,7 +10,7 @@ export default function Home() {
   const latestPosts = sortPosts(posts).slice(0, 5);
   return (
     <>
-      <section className="space-y-6 pb-8 pt-6 md:pb-12 md:mt-6 lg:py-32">
+      <section className="space-y-6 pb-8 pt-6 sm:pt-12 md:pb-12 md:mt-6 lg:py-32">
         <div className="container flex max-w-5xl flex-col items-center gap-4 text-center">
           <Link
             href={siteConfig.links.medium}
@@ -33,7 +33,7 @@ export default function Home() {
               View my blog
             </Link>
             <Link
-              href={siteConfig.links.github}
+              href={siteConfig.links.personalSite}
               target="_blank"
               rel="noreferrer"
               className={cn(
@@ -41,7 +41,7 @@ export default function Home() {
                 "w-full sm:w-fit"
               )}
             >
-              GitHub
+              View my Website
             </Link>
           </div>
         </div>

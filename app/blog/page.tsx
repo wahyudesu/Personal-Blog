@@ -1,5 +1,5 @@
 import { posts } from "#site/content";
-import { PostItem } from "@/components/post-item";
+import { PostItem } from "@/components/post-item-blog";
 import { QueryPagination } from "@/components/query-pagination";
 import { Tag } from "@/components/tag";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -73,7 +73,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
           )}
           <QueryPagination
             totalPages={totalPages}
-            className="justify-end mt-4"
+            className="mt-4"
           />
         </div>
         <Card className="col-span-12 row-start-3 h-fit sm:col-span-4 sm:col-start-9 sm:row-start-1">

@@ -5,7 +5,7 @@ import { Icons } from "./icons";
 export function SiteFooter() {
   return (
     <footer>
-      <div className="mb-6 mt-8 flex flex-col items-center">
+      <div className="mb-6 mt-14 flex flex-col items-center">
         <div className="mb-3 flex space-x-4">
           <a target="_blank" rel="noreferrer" href="mailto:hello@example.com">
             <span className="sr-only">Mail</span>

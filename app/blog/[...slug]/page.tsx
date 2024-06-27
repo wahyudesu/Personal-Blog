@@ -12,6 +12,8 @@ import { siteConfig } from "@/config/site"
 import { Tag } from "@/components/tag"
 import { buttonVariants } from "@/components/ui/button"
 import { Icons } from "@/components/icons"
+import { ModeToggle } from "@/components/titik-3";
+import { SiteFooter } from "@/components/site-footer-for-blog";
 
 interface PostPageProps {
   params: {
@@ -94,20 +96,23 @@ export default async function PostPage({ params }: PostPageProps) {
       <h1 className="mb-1 mt-2 font-heading inline-block text-4xl leading tight lg:text-5xl">
         {post.title}
       </h1>
-      <div className="-mt-2 flex items-center space-x-3 text-sm">
-        <Image
-        src="/avatar.png"
-        alt={siteConfig.author}
-        width={42}
-        height={42}
-        className="rounded-full bg-white"
-        />
-        <div className="flex-shrink text-left leading-none">
-          <p className="font-medium">{siteConfig.author}</p>
-          <p className="text-muted-foreground text-[12px] -mt-3">
-            @{siteConfig.links.instagram}
-           </p>
+      <div className="flex justify-between items-center">
+        <div className="-mt-2 flex items-center space-x-3 text-sm">
+          <Image
+          src="/avatar.png"
+          alt={siteConfig.author}
+          width={42}
+          height={42}
+          className="rounded-full bg-white"
+          />
+          <div className="flex-shrink text-left leading-none">
+            <p className="font-medium">{siteConfig.author}</p>
+            <p className="text-muted-foreground text-[12px] -mt-3">
+              @{siteConfig.links.instagram}
+             </p>
+          </div>
         </div>
+      <ModeToggle />
       </div>
       {/* <div className="flex gap-2">
         {post.tags?.map((tag) => (

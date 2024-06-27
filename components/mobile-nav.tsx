@@ -36,6 +36,9 @@ export function MobileNav() {
           <MobileLink onOpenChange={setOpen} href="/about">
             About
           </MobileLink>
+          <MobileLink onOpenChange={setOpen} href={siteConfig.links.personalSite}>
+            Personal Website
+          </MobileLink>
         </div>
       </SheetContent>
     </Sheet>
