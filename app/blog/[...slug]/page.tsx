@@ -1,11 +1,14 @@
 import { posts } from "#site/content";
 import { MDXContent } from "@/components/mdx-components";
 import { notFound } from "next/navigation";
+import { formatDate, cn } from "@/lib/utils";
 
 import "@/styles/mdx.css";
 import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { Tag } from "@/components/tag";
+import Image from "next/image"
+
 interface PostPageProps {
   params: {
     slug: string[];
@@ -72,16 +75,34 @@ export default async function PostPage({ params }: PostPageProps) {
   }
 
   return (
-    <article className="container py-6 prose dark:prose-invert max-w-3xl mx-auto">
-      <h1 className="mb-2">{post.title}</h1>
-      <div className="flex gap-2 mb-2">
-        {post.tags?.map((tag) => (
-          <Tag tag={tag} key={tag} />
-        ))}
+    <article className="container relative max-w-3xl mx-auto py-12 lg:py-12 prose dark:prose-invert">
+      {post.date && (
+        <time
+          dateTime={post.date}
+          className="text-muted-foreground block text-sm"
+        >
+          Published on {formatDate(post.date)}
+        </time>
+      )}
+      <h1 className="mb-1 mt-2 font-heading inline-block text-4xl leading tight lg:text-5xl">
+        {post.title}
+      </h1>
+      <div className="-mt-2 flex items-center space-x-3 text-sm">
+        <Image
+        src="/avatar.png"
+        alt={siteConfig.author}
+        width={42}
+        height={42}
+        className="rounded-full bg-white"
+        />
+        <div className="flex-shrink text-left leading-none">
+          <p className="font-medium">{siteConfig.author}</p>
+          <p className="text-muted-foreground text-[12px] -mt-3">
+            @{siteConfig.links.instagram}
+           </p>
+        </div>
       </div>
-      {post.description ? (
-        <p className="text-xl mt-0 text-muted-foreground">{post.description}</p>
-      ) : null}
+
       <hr className="my-4" />
       <MDXContent code={post.body} />
     </article>
