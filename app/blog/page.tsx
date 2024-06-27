@@ -54,13 +54,12 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                 const { slug, date, title, description, tags } = post;
                 return (
                   <li key={slug}>
-                    <PostItem
-                      slug={slug}
-                      date={date}
-                      title={<h2 className={`${inter.className} text-2xl font-extrabold`}>{post.title}</h2>}
-                      description={description}
-                      tags={tags}
-                    />
+                    <div>
+                      <h2 className={`${inter.className} text-2xl font-extrabold`}>{post.title}</h2>
+                      {post.description && (
+                        <p className="text-muted-foreground">{post.description}</p>
+                      )}
+                    </div>
                   </li>
                 );
               })}
