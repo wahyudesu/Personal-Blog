@@ -1,13 +1,17 @@
-import { posts } from "#site/content";
-import { MDXContent } from "@/components/mdx-components";
-import { notFound } from "next/navigation";
-import { formatDate, cn } from "@/lib/utils";
+import { posts } from "#site/content"
+import { MDXContent } from "@/components/mdx-components"
+import { notFound } from "next/navigation"
 
-import "@/styles/mdx.css";
-import { Metadata } from "next";
-import { siteConfig } from "@/config/site";
-import { Tag } from "@/components/tag";
+import { cn, formatDate } from "@/lib/utils"
+import "@/styles/mdx.css"
+import { Metadata } from "next"
+import Link from "next/link"
 import Image from "next/image"
+
+import { siteConfig } from "@/config/site"
+import { Tag } from "@/components/tag"
+import { buttonVariants } from "@/components/ui/button"
+import { Icons } from "@/components/icons"
 
 interface PostPageProps {
   params: {
@@ -18,10 +22,14 @@ interface PostPageProps {
 async function getPostFromParams(params: PostPageProps["params"]) {
   const slug = params?.slug?.join("/");
   const post = posts.find((post) => post.slugAsParams === slug);
-
+  
+  if (!post) {
+    null
+  }
   return post;
 }
 
+// SEO
 export async function generateMetadata({
   params,
 }: PostPageProps): Promise<Metadata> {
@@ -37,7 +45,6 @@ export async function generateMetadata({
   return {
     title: post.title,
     description: post.description,
-    authors: { name: siteConfig.author },
     openGraph: {
       title: post.title,
       description: post.description,
@@ -102,9 +109,23 @@ export default async function PostPage({ params }: PostPageProps) {
            </p>
         </div>
       </div>
-
-      <hr className="my-4" />
+      {/* <div className="flex gap-2">
+        {post.tags?.map((tag) => (
+          <Tag tag={tag} key={tag} />
+        ))}
+      </div> */}
+      {post.image && (
+        <Image
+          src={post.image}
+          alt="post.title"
+          width={720}
+          height={405}
+          className="mt-1 bg-muted rounded-md border transition-colors"
+          priority 
+        />
+      )}
       <MDXContent code={post.body} />
+      <hr className="mt-12" />
     </article>
   );
 }
