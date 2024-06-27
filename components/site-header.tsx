@@ -14,36 +14,6 @@ export function SiteHeader() {
         <MainNav />
         <div className="flex flex-1 items-center justify-end space-x-2">
           <nav className="flex items-center">
-            <Link
-              href={siteConfig.links.github}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div
-                className={cn(
-                  buttonVariants({ variant: "ghost" }),
-                  "w-10 px-0 hidden sm:inline-flex"
-                )}
-              >
-                <Icons.gitHub className="h-4 w-4" />
-                <span className="sr-only">GitHub</span>
-              </div>
-            </Link>
-            <Link
-              href={siteConfig.links.twitter}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div
-                className={cn(
-                  buttonVariants({ variant: "ghost" }),
-                  "w-10 px-0 hidden sm:inline-flex"
-                )}
-              >
-                <Icons.twitter className="h-4 w-4" />
-                <span className="sr-only">Twitter</span>
-              </div>
-            </Link>
             <ModeToggle />
             <MobileNav />
           </nav>

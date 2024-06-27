@@ -43,7 +43,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
             Blog
           </h1>
           <p className="text-xl text-muted-foreground">
-            Mencoba membagikan informasi lewat literasi.
+            A blog built using Velite. Posts are written in MDX.
           </p>
         </div>
       </div>
