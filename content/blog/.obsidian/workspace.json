@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "dd2b65f67518e8e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f77dc1c9ac84f322",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b7f8eaf06f0f397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Still Development/Breakdown cuy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a3cc92f7544c65ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e404bdac5b32d44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "980a77a7b27b0909",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e6837986cb25779f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b8c5eabc10c4bb4c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "375423a3bbc74ff4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f22eafd0fb66a1b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a345abf845e6798",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ba47c65a56db47e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Still Development/Breakdown cuy.md"
+              }
+            }
+          },
+          {
+            "id": "73dd0570dcaeb4aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Still Development/Breakdown cuy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "84cf008fbe6c07e4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Still Development/Breakdown cuy.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "06a98628788fed50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de8833f925fae68f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 289.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "edit-mdx:New .mdx file": false
+    }
+  },
+  "active": "9b7f8eaf06f0f397",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Cover",
+    "assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
+    "assets",
+    "Summarized/Specific topic",
+    "Summarized/Latihan nulis.md",
+    "Summarized",
+    "Still Development/Breakdown cuy.md",
+    "Still Development",
+    "Draft/Why You Should Never Use C.md",
+    "Draft/Why are most LLMs decoder.md",
+    "Draft/Title-title.mdx",
+    "Draft/Title-title 1.mdx",
+    "Draft/Title-title 1 1.mdx",
+    "Draft/Title-title 1 1 1.mdx",
+    "Draft/Title-title 1 1 1 1.mdx",
+    "Draft/Steal like an artist.md",
+    "Saving Time with Flow.md",
+    "Understanding decomposition in Machine learning.md",
+    "Draft/Title-title.md",
+    "writing.md",
+    "mengapa kamu bangun.md",
+    "mengapa-kamu-suka-saya.md"
+  ]
+}

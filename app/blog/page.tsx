@@ -5,6 +5,9 @@ import { Tag } from "@/components/tag";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { getAllTags, sortPosts, sortTagsByCount } from "@/lib/utils";
 import { Metadata } from "next";
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "My blog",
@@ -54,7 +57,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                     <PostItem
                       slug={slug}
                       date={date}
-                      title={title}
+                      title={<h2 className={`${inter.className} text-2xl font-extrabold`}>{post.title}</h2>}
                       description={description}
                       tags={tags}
                     />

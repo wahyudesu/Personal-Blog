@@ -6,7 +6,8 @@ export const siteConfig = {
   links: {
     twitter: "https://twitter.com/jollyshopland",
     github: "https://github.com/wahyudesu",
-    personalSite: "https://wahyuikbal.framer.website",
+    medium: "https://medium.com/@wahyuikbal",
+    linkedin: "https://www.linkedin.com/in/wahyuikbalmaulana"
   },
 };
 

@@ -6,8 +6,19 @@ import { SiteHeader } from "@/components/site-header";
 import { Providers } from "@/components/providers";
 import { siteConfig } from "@/config/site";
 import { SiteFooter } from "@/components/site-footer";
+import localFont from "next/font/local"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+
+const fontSans = localFont({
+  src: "../assets/fonts/Inter-Regular.ttf",
+  variable: "--font-sans",
+})
+
+const fontHeading = localFont({
+  src: "../assets/fonts/CalSans-SemiBold.woff2",
+  variable: "--font-heading",
+})
 
 export const metadata: Metadata = {
   title: siteConfig.name,
@@ -32,7 +43,8 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          inter.variable
+          fontSans.variable,
+          fontHeading.variable,
         )}
       >
         <Providers>

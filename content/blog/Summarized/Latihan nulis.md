@@ -1,0 +1,1 @@
+Jadi di folder ini saya menulis kembali beberapa artikel 

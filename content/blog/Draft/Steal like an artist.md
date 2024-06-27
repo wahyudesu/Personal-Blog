@@ -1,0 +1,4 @@
+- Short Videos+Youtube Videos+Article = Blog
+- Tutorial Youtube+Article = Blog
+- Book 
+- Code
