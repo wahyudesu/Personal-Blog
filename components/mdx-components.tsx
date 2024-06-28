@@ -23,7 +23,7 @@ const components = {
   h2: ({ className, ...props }: { className?: any }) => (
     <h2
       className={cn(
-        "mt-5 scroll-m-20 border-b pb-1 text-3xl font-semibold tracking-tight first:mt-0",
+        "mt-5 scroll-m-20 border-b pb-1 text-3xl font-semibold tracking-tight first:mt-0 -mb-2",
         className
       )}
       {...props}
@@ -142,7 +142,11 @@ const components = {
       {...props}
     />
   ),
-  Image,
+  Image: ({ className, ...props }: { className?: any }) => (
+    <div className="justify-center">
+      <img className={cn("rounded-md border mb-10", className)} {...props} />
+    </div>
+  ),
   Callout: ({ className, ...props }: { className?: any }) => (
     <Callout {...props} />
   ),

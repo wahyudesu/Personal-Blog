@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dd828366e0abe37d",
+        "id": "5e6d8a137cb9183a",
         "type": "tabs",
         "children": [
           {
-            "id": "605af46721e8ff2a",
+            "id": "27902eeb5ff8c003",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/apa-kabar.mdx",
+                "file": "content/blog/testing-2.mdx",
                 "mode": "source",
                 "source": false
               }
@@ -64,12 +64,28 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "c7e487cc3a049e30",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "120fdfec3b2f473c",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 412.50418853759766
+    "width": 288.50418853759766
   },
   "right": {
     "id": "01ba5bff5e9588cb",
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/blog/apa-kabar.mdx",
+                "file": "content/blog/testing-2.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/apa-kabar.mdx",
+                "file": "content/blog/testing-2.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/apa-kabar.mdx"
+                "file": "content/blog/testing-2.mdx"
               }
             }
           }
@@ -147,26 +163,44 @@
       "command-palette:Open command palette": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-stille:Toggle Stille": false,
-      "obsidian-word-sprint:Activate Word Sprint Leaf": false
+      "obsidian-word-sprint:Activate Word Sprint Leaf": false,
+      "dangerzone-writing-plugin:Dangerzone Writing": false
     }
   },
-  "active": "605af46721e8ff2a",
+  "active": "27902eeb5ff8c003",
   "lastOpenFiles": [
-    "app/blog/page-archive.tsx",
-    "app/blog/page copy.tsx",
-    "content/blog/testing-2.mdx",
-    "content/blog/disappearing-props.mdx",
-    "content/blog/Confusion-matrics.mdx",
-    "content/blog/github-markdown.mdx",
-    "content/blog/prop-drilling.mdx",
-    "content/blog/code-blocks.mdx",
-    "content/blog/hello-world.mdx",
-    "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
-    "content/blog/Draft/Title-title.mdx",
-    "content/blog/Draft/Why are most LLMs decoder.md",
+    "content/blog/draft/Title-title.mdx",
+    "content/blog/draft/Why You Should Never Use C.md",
+    "content/blog/draft/Why are most LLMs decoder.md",
+    "content/blog/draft/Steal like an artist.md",
+    "content/blog/draft/The rightway to....mdx",
+    "content/blog/draft/Machine learning website you must.mdx",
+    "content/blog/draft/S1-vs-D4-Pilih-Mana-Yang-Paling-Cocok-Buatmu.mdx",
+    "content/blog/draft/Grid System in Web & UI Design.mdx",
+    "content/blog/draft/Agar memilih Algoritma ML yang tepat.mdx",
+    "content/blog/draft/Ensembling Models.mdx",
+    "content/blog/draft",
+    "content/blog/archive/summon-component.mdx",
+    "content/blog/archive/react-debug-magic.mdx",
+    "content/blog/archive/react-lifecycle-cats.mdx",
+    "content/blog/archive/Archive.md",
+    "public/static/gif_of_fluent_search_feature_of_chatgpt_integration-1-ada699.gif",
+    "Untitled.md",
+    "content/blog/Untitled.md",
+    "content/blog/assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
+    "public/images/cover/blog-post-3.jpg",
+    "public/images/cover/Frame-10.jpg",
+    "public/images/cover/blog-post-4.jpg",
+    "public/images/cover/blog-post-2.jpg",
+    "public/images/cover/blog-post-1.jpg",
+    "public/images/cover/cover-confusion.png",
     "public/images/hero.png",
-    "public/images/Frame-10.jpg",
-    "public/images/blog-post-3.jpg",
+    "public/images/images.md",
+    "public/avatar.png",
+    "public/public.md",
+    "content/blog/Archive/Archive.md",
+    "content/blog/blog.md",
+    "content/blog/Draft/Why are most LLMs decoder.md",
     "README.md"
   ]
 }

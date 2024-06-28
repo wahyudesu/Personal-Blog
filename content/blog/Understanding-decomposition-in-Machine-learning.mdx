@@ -1,13 +1,12 @@
 ---
 title: Understanding decomposition in Machine learning
+image: /images/cover/Frame-10.jpg
 description: This is our first blog post. Really cool
 date: 2024-07-22
 tags: ["data science", "machine learning"]
 published: true
 read: 25
 ---
-
-![Frame 10.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-bCUGXSGh8Q/4b2787193c4d7b95b4a3d659e2893f184190362868baf86e80e6d3b153ab55a1307d008f0d093b1b95e992de15482b3c8bdab24ce472dd86f7741ad11826380e3d9400060faec5e9cb2dbb18e562129ac1c74ed5bc8e5051de8f6722b474c01496938e84)
 
 Untuk memecahkan masalah yang kompleks, salah satu pendekatan umum yang efektif adalah dengan menguraikannya menjadi submasalah yang lebih kecil, tidak terlalu rumit, dan supaya lebih mudah dikelola. Proses ini di dalam computer science, disebut problem decomposition. [Decomposition](https://en.wikipedia.org/wiki/Decomposition_(computer_science)) sendiri dalam ilmu komputer adalah proses memecah masalah atau sistem yang kompleks menjadi beberapa bagian yang lebih mudah untuk dipahami, diprogram, dan dianalisa.
 
@@ -20,15 +19,12 @@ Di dalam [Interpretable Machine Learning](https://christophmolnar.com/books/inte
 ## Introduction PCA
 
 Salah satu metode decomposition yang populer adalah PCA, metode ini mereduksi dimensi dengan mengubah kumpulan variabel besar menjadi variabel yang lebih kecil, namun mempertahankan informasi dari data besar tersebut. Simplenya, PCA membuat data yang kompleks menjadi lebih sederhana dengan mengambil banyak informasi dan menemukan bagian yang paling penting.
-
 PCA biasa dipakai pada Desicion Tree, Neural Network. Metode ini bisa dipakai ketika kita ingin visualisasi yang lebih sederhana, mengatasi terlalu banyak feature, hingga mempercepat training sebuah model
-
 Perlu dicatat bahwa metode ini hanya bekerja dalam data yang bersifat linear([linear data](https://www.kdnuggets.com/2022/07/linear-machine-learning-algorithms-overview.html)).
 
 ![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-jaSkm08DXB/502b16644a61cf787624176a600f48aa80b6ba7d41c85a34afd3ec54c91be6671b0ccd36deb74b05eddd9fda0978ed0954886a65d92433fe5e456cc9d91fc7d57652d21c5c47dff9cc3fd5a58b4220a18eb5a7a9fb268cc2762e2ce01609de7fca5deadd)
 
 PCA menangkap variabel dominan dari dataset (lower variance dimension). 3D dataset akan kehilangan banyak inforamasi ketika dipreyeksikan ke dalam 2D. Image by Duke Course Notes, Cynthia Rudin
-
 Algoritma Principal Component Analysis didasarkan dari teori matematika:
 
 - Variance dan Convariance
@@ -41,7 +37,6 @@ Dari dasar matematika tersebut kemudian dikembangkan lagi, menjadi fungsi PCA ya
 Detailnya bisa anda cek:
 - [Scikit-learn Decomposition Classes](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.decomposition)
 - [Scikit-learn PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
-
 
 ### Principal Component Analysis (PCA) with Scikit-Learn
 
