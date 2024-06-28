@@ -14,7 +14,7 @@ const components = {
   h1: ({ className, ...props }: { className?: any }) => (
     <h1
       className={cn(
-        "prose scroll-m-20 border-b pb-1 font-bold text-4xl tracking-tight",
+        "scroll-m-20 border-b pb-1 font-bold text-4xl tracking-tight",
         className
       )}
       {...props}
