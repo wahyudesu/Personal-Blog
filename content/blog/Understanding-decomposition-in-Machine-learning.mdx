@@ -2,10 +2,9 @@
 title: Understanding decomposition in Machine learning
 description: This is our first blog post. Really cool
 date: 2024-07-22
-tags: ["productifity", "blog"]
+tags: ["data science", "machine learning"]
 published: true
 read: 25
-
 ---
 
 ![Frame 10.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-bCUGXSGh8Q/4b2787193c4d7b95b4a3d659e2893f184190362868baf86e80e6d3b153ab55a1307d008f0d093b1b95e992de15482b3c8bdab24ce472dd86f7741ad11826380e3d9400060faec5e9cb2dbb18e562129ac1c74ed5bc8e5051de8f6722b474c01496938e84)
@@ -83,14 +82,14 @@ inputs
 ![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-Emkh0xNaks/ee442c95901dc846628df30671a53027105b1734bb90ed746a46341949001bf1719a299ff4e3b6ac10a43baa093a9869bc5e40c5f997628ce5b23d1b6418fae788239edc12555eb2aa6aa68f438e04e99a663ad22ed98ba5f756e7ce394c51e9831a6a3a)
 
 Di scikit learn sudah terdapat library yang secara otomatis mengkalkulasi, yaitu dengan menggunakan [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) untuk data preprocessing, selain menghapus rata-rata tetapi juga atribut juga mengukur skala atribut yang sesuai.
-```Python
+```python
 #Normalize data
 from sklearn.preprocessing import StandardScaler
 x1 = StandardScaler().fit_transform(inputs)
 x1
 ```
   
-```Python
+```python
 #Penerapan PCA
 from sklearn.decomposition import PCA
 pca = PCA()
@@ -107,7 +106,7 @@ Perhatikan bagaimana langkah-langkah dalam analisis komponen utama seperti mengh
 
 3. Selanjutnya adalah kita analisa principal components berdasarkan variansi
 
-```Python
+```python
 import matplotlib.pyplot as plt
 figure = plt.figure()
 ax = plt.gca()

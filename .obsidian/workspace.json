@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "content/blog/apa-kabar.mdx",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 412.50418853759766
   },
   "right": {
     "id": "01ba5bff5e9588cb",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "content/blog/apa-kabar.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "content/blog/apa-kabar.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "content/blog/apa-kabar.mdx"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -143,9 +144,29 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-stille:Toggle Stille": false,
+      "obsidian-word-sprint:Activate Word Sprint Leaf": false
     }
   },
-  "active": "804521f1551f4418",
-  "lastOpenFiles": []
+  "active": "605af46721e8ff2a",
+  "lastOpenFiles": [
+    "content/blog/testing-2.mdx",
+    "content/blog/disappearing-props.mdx",
+    "content/blog/Confusion-matrics.mdx",
+    "content/blog/github-markdown.mdx",
+    "content/blog/prop-drilling.mdx",
+    "content/blog/code-blocks.mdx",
+    "content/blog/hello-world.mdx",
+    "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
+    "content/blog/Draft/Title-title.mdx",
+    "content/blog/Draft/Why are most LLMs decoder.md",
+    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
+    "content/blog/Draft/Title-title 1.mdx",
+    "public/images/hero.png",
+    "public/images/Frame-10.jpg",
+    "public/images/blog-post-3.jpg",
+    "README.md"
+  ]
 }
