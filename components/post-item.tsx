@@ -45,7 +45,7 @@ export function PostItem({
           <dt className="sr-only">Published On</dt>
           <dd className="text-sm sm:text-base font-medium flex items-center gap-1">
             {/* <Calendar className="h-4 w-4" /> */}
-            <time className="max-w-none" dateTime={date}>{formatDate(date)} |</time>
+            <time className="max-w-none" dateTime={date}>{formatDate(date)} ·</time>
             <div className="max-w-none">{read} min read </div>
           </dd>
         </dl>
