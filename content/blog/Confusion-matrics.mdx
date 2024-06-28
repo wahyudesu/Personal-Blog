@@ -1,0 +1,73 @@
+---
+image: /images/Frame-10.jpg
+method: 
+title: "Confusion Metrics: Apa Itu Presisi, Recall, dan Bagaimana Menginterpretasikannya"
+description: testing
+audience: 
+latar belakang: 
+tujuan: 
+platfom: Medium Himit Pens, Personal Blog
+tone: Persuasive, Information
+language: Indonesia
+date: 2023-07-05
+tags: ["code", "blog"]
+published: true
+read: 5
+---
+![p and e.png](/images/Frame-10.jpg)
+![p and e.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-c43mj7tcX3/7ff5fa9fedb7df76cad4959127476aa9fabec7979d682265afa9f0dd528905a7e1c510a45081976e22421e621ae18c25ecd1c9b5ca32068c1328c7d530779d2bd0c7a603609d87fea5233b764720f2e84a866aeaadc87409666734edb6d9a5ceb601c0a4)
+
+Saat kita mulai belajar Machine learning, kita biasanya akan menemui istilah Akurasi, presisi dan kawan kawannya. Apakah itu? Mari kita bahas
+
+Dalam dunia Machine Learning (ML), khususnya pada supervised learning, evaluasi performance dari algoritma ML dapat dilakukan dengan menggunakan acuan Confusion Matrix. Confusion Matrix merepresentasikan prediksi dan kondisi aktual dari data yang dihasilkan oleh algoritma ML. Dari Confusion Matrix, kita dapat menentukan beberapa nilai yang sangat penting dalam mengevaluasi kinerja suatu model atau algoritma. Nilai-nilai tersebut adalah Accuracy, Precision, Recall, dan F-1 Score. Accuracy mengukur seberapa akurat model dalam memprediksi nilai yang benar, dengan parameter:
+
+Precision adalah metrik yang digunakan untuk mengukur sejauh mana model klasifikasi memberikan prediksi yang benar secara positif. Precision dihitung dengan membagi jumlah prediksi positif yang benar dengan jumlah total prediksi positif.
+
+Recall adalah metrik yang digunakan untuk mengukur sejauh mana model klasifikasi dapat mengidentifikasi semua kasus positif yang sebenarnya. Recall dihitung dengan membagi jumlah prediksi positif yang benar dengan jumlah total kasus positif yang sebenarnya.
+
+Ada lagi parameter evaluasi F1-Score yang merupakan parameter gabungan antara Precision dan Recall, parameter ini mengukur seberapa baik model dapat memprediksi kelas positif dengan mempertimbangkan keseimbangan antara Precision dan Recall.
+
+Kedua metrik ini sering digunakan bersamaan untuk mengevaluasi performa model klasifikasi. Precision dan recall memiliki hubungan trade-off, di mana meningkatnya nilai salah satu parameter akan menurunkan nilai parameter lainnya. Oleh karena itu, pemilihan parameter evaluasi yang lebih penting tergantung pada kasus penggunaan. Sebagai contoh, dan untuk lebih mudah memahami kali ini kita akan menggunakan contoh kasus prediksi kelulusan mahasiswa untuk memudahkan memahami Accuracy, Precision, Recall dan F1-Score
+
+### Case Studies
+
+![uuhuhk.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-jX23oY6US8/8905023b45823c5767537452e3e6043126d2370108363a168dd02446c0f5d2fd4fda5772aac74a477b263671ac1fb08fc5049306c592282e80b01ab3a3c7a58cc8adc8acf6889dab44ac9fc79e062a32a93c830e62f6baeaf543e5c86dedfa0c1b77b60c)
+
+Dari hasil prediksi di atas, ada kemungkinan 4 kasus yang terjadi:
+
+- True Positive (TP): kasus dimana mahasiswa diprediksi (Positif) Lulus, memang benar(True) Lulus. Dalam contoh di atas adalah 4 mahasiswa dengan NIM 01, 02, 04, 05. Jadi nilai TP nya adalah 4
+- True Negative (TN): kasus dimana mahasiswa diprediksi tidak(Negatif) Lulus dan sebenarnya mahasiswa tersebut memang (True) tidak lulus. Dalam contoh di atas terjadi pada mahasiswa 06, 09, dan 10. Jadi TN nya adalah 3
+- False Positve (FP): kasus dimana mahasiswa yang diprediksi positif Lulus, ternyata tidak lulus. Prediksinya salah (False). Dalam contoh di atas terjadi pada mahasiswa 03 dan 07. Jadi nilai FP adalah 2
+- False Negatif (FN): kasus dimana mahasiswa yang diprediksi tidak lulus (Negatif), tetapi ternyata sebenarnya(TRUE) lulus. Dalam contoh kasus di atas terjadi pada mahasiswa 08. jadi FN = 1
+
+![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-bufeEcfchX/0afa56243b35e2dc1c403dd78c6d2d89c7b27e23342ee173a36f8e9c942f99e7c6dd2336df95c0c86cc56b045b0ba4b422d7d699fc2b81201554eaed646f048e6b4ad92974bc580f3029b42586f3b77b561e49f8f7f2fe4996ef4d01aec1c5c54ad47473)
+
+Akurasi = (4+3)/10 = 7/10 = 0.7 = 70%
+
+![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-1auckLAAkY/887621c2d98cb07054bede129441847f9f6865cddaf634e0ab1cd3d7d601db47c3b852a134c0944ef20ebce6b1fdf59bac24ffe5a8a35fb2375e9293e00429b530309d56c7b293a22513f3021d40b07393997ff85485080bc6eb7c46dded4e21c821a87f)
+
+Precision = 4/ (4+2) = 4/8 = 0.5 = 50%
+
+![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-Cb3P0AuHZl/8e42bf209e0c735b74c2b06e6dd6dd563900078990e0941efcd81006e13d77a79b7425965b5edebbefa3108d8ab4427c818c0ad43b641055432a073d59c71b45a1746c9989e019fb97a8d92cb690a214e4ab0fc8f08b626648a96783fd7bbbafa314a445)
+
+Recall = 4/ (4+1) = 4/5 = 0.8 = 80%
+
+![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-g7U4IN0nut/7132bb93a142975f608469a729d691612c48efbee8ac530ff342b9853aea1ceb3a3353f6cdb1b35e0022527961c5d2006e2de37d463eb7fed06f2dabe04abca0c53a42fcce77c52d4dfa556cbd91eb247ad65b6a2bce471875468002c0e2e94f9a73f59f)
+
+![image.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-wNrkUxjDP-/a053d70421f2d82e1085d339659e95d6994054c337e0a2e69a1d7f6286b2ebe83e77685a8daddfd9a2b268e4465f3e7f0ca2e6865048f6f86aa939068d0b3739db5c6e604dcdbb2ec51eb4728ee87dca32be3de98cc7c86270b8590acf67ee7d9270e8a4)
+
+F1 Score = 2 * (0.5*0.8) / (0.5+0.8) = 0.61
+
+Interpretasi precision dan recall dapat dilakukan dengan memperhatikan konteks masalah yang sedang diselesaikan. Jika kita lebih memprioritaskan untuk menghindari kesalahan positif (mis. memprediksi sesuatu sebagai positif ketika sebenarnya negatif), maka kita harus fokus pada precision. Namun, jika kita lebih memprioritaskan untuk menghindari kesalahan negatif (mis. gagal mengidentifikasi kasus positif), maka kita harus fokus pada recall.
+
+Kedua metrik ini sering digunakan bersamaan untuk mengevaluasi performa model klasifikasi. Precision dan recall memiliki hubungan trade-off, di mana meningkatnya nilai salah satu parameter akan menurunkan nilai parameter lainnya. Oleh karena itu, pemilihan parameter evaluasi yang lebih penting tergantung pada kasus penggunaan.
+
+Untuk lebih memahami, mari kita pakai satu contoh. Misalkan kita memiliki dataset kelas biner dengan 5 sampel kelas positif dan 5 sampel kelas negatif, dan batas keputusan model ditunjukkan oleh garis hijau pada kasus (A) di bawah ini. SISI BAGIAN KANAN dari garis hijau menggambarkan kelas positif, dan SISI BAGIAN KIRI menggambarkan kelas negatif.
+
+![okeiszt.png](https://codahosted.io/docs/7V84xY4hnz/blobs/bl-0Kxo4GKepJ/72d16f7a398a16f3a3f09535a7c6283f7d16b9dc2c798d01600e8a7dc9ae59f28db47679be38e78347c9eee340c7df39596eec00db7bc4c7f47ef367946788b05a38c11f4330f9585854121cf6ad747db8d51897a0c39c83359a9fd3f1162243e9ed1df0)
+
+Sekarang, decision boundary telah digeser untuk meningkatkan precision hingga 100% (dengan recall 50%) atau dengan meningkatkan recall hingga 100% (tetapi precisionnya 50%).
+
+---
+
+Untuk kamu yang berminat dibidang machine learning, tentunya masih banyak yang perlu dipelajari. Tidak perlu bingung, nanti akan kita pelajari satu per satu. Terima kasih sudah membaca hingga akhir semoga artikel ini bermanfaat ^_^

@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "dd2b65f67518e8e0",
+    "id": "56e9bdb5f7f89838",
     "type": "split",
     "children": [
       {
-        "id": "f77dc1c9ac84f322",
+        "id": "dd828366e0abe37d",
         "type": "tabs",
         "children": [
           {
-            "id": "9b7f8eaf06f0f397",
+            "id": "605af46721e8ff2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Understanding-decomposition-in-Machine-learning.mdx",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a3cc92f7544c65ae",
+    "id": "d2004f5514e7a4c0",
     "type": "split",
     "children": [
       {
-        "id": "5e404bdac5b32d44",
+        "id": "288f068f7bd21a4a",
         "type": "tabs",
         "children": [
           {
-            "id": "980a77a7b27b0909",
+            "id": "804521f1551f4418",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "e6837986cb25779f",
+            "id": "2168896ad72b2807",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,22 +58,11 @@
             }
           },
           {
-            "id": "b8c5eabc10c4bb4c",
+            "id": "6e5890a00266b4a5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
-            }
-          },
-          {
-            "id": "375423a3bbc74ff4",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
             }
           }
         ]
@@ -83,30 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "f22eafd0fb66a1b4",
+    "id": "01ba5bff5e9588cb",
     "type": "split",
     "children": [
       {
-        "id": "2a345abf845e6798",
+        "id": "eededcc78d1a5c37",
         "type": "tabs",
         "children": [
           {
-            "id": "3ba47c65a56db47e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Understanding-decomposition-in-Machine-learning.mdx"
-              }
-            }
-          },
-          {
-            "id": "73dd0570dcaeb4aa",
+            "id": "c48de4eeb3259821",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Understanding-decomposition-in-Machine-learning.mdx",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,36 +97,44 @@
             }
           },
           {
-            "id": "84cf008fbe6c07e4",
+            "id": "38184d16354738c1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Understanding-decomposition-in-Machine-learning.mdx",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "06a98628788fed50",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "de8833f925fae68f",
+            "id": "04ef90ab43b6664b",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "76800802cea435c5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,37 +143,9 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "edit-mdx:New .mdx file": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "9b7f8eaf06f0f397",
-  "lastOpenFiles": [
-    "assets/cover-confusion.png",
-    "assets/cover-confusion.png.crdownload",
-    "assets/Frame-10.png",
-    "Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
-    "assets/Frame 10.png",
-    "assets/Frame 10.png.crdownload",
-    "testing-blog-pertama.mdx",
-    "Understanding-decomposition-in-Machine-learning.mdx",
-    "assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
-    "Yang kudapat dari SKS Time series forecasting 1.mdx",
-    "Still Development/Breakdown cuy.md",
-    "Untitled.md",
-    "Cover",
-    "assets",
-    "Summarized/Specific topic",
-    "Summarized/Latihan nulis.md",
-    "Summarized",
-    "Draft/Why You Should Never Use C.md",
-    "Draft/Why are most LLMs decoder.md",
-    "Draft/Steal like an artist.md",
-    "Saving Time with Flow.md",
-    "Understanding decomposition in Machine learning.md",
-    "Draft/Title-title.md",
-    "writing.md",
-    "mengapa kamu bangun.md",
-    "mengapa-kamu-suka-saya.md"
-  ]
+  "active": "804521f1551f4418",
+  "lastOpenFiles": []
 }

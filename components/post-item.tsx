@@ -3,6 +3,10 @@ import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import { cn, formatDate } from "@/lib/utils";
 import { Tag } from "./tag";
+import Image from "next/image";
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 interface PostItemProps {
   slug: string;
@@ -12,7 +16,6 @@ interface PostItemProps {
   tags?: Array<string>;
   image?: string;
   read?: number;
-
 }
 
 export function PostItem({
@@ -27,7 +30,7 @@ export function PostItem({
   return (
     <article className="flex flex-col gap-2 border-border border-b py-3">
       <div>
-        <h2 className="text-2xl font-bold">
+        <h2 className={`${inter.className} text-2xl font-extrabold`}>
           <Link href={"/" + slug}>{title}</Link>
         </h2>
       </div>

@@ -9,9 +9,11 @@
 - [x] SEO
 - [x] Toggle Report 
 - [x] Tag
-- [ ] Fill about page
+- [ ] Live views
 - [ ] Fix content .mdx in obsidian
 - [ ] Image in mdx
+- [ ] Edit about page
+- [ ] Advance SEO in Next JS
 - [ ] Fix design PostItem.tsx
 - [ ] Create 2 post item, 1 from page, 1 from blog
 - [ ] Editing post item from blog
