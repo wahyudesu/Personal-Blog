@@ -5,6 +5,7 @@
     "tags": "tags",
     "tone": "multitext",
     "date": "date",
-    "audience": "text"
+    "audience": "text",
+    "progress": "number"
   }
 }
