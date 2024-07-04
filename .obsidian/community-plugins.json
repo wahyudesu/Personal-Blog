@@ -9,7 +9,8 @@
   "obsidian-stille",
   "obsidian-word-sprint",
   "make-md",
-  "quickadd",
-  "longform",
-  "dangerzone-writing-plugin"
+  "dangerzone-writing-plugin",
+  "obsidian-hide-sidebars-when-narrow",
+  "obsidian-plugin-todo",
+  "obsidian-checklist-plugin"
 ]

@@ -1,0 +1,1 @@
+untuk hal ini saya lselau menemukan bahwa like when you get want to 

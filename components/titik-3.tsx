@@ -1,6 +1,5 @@
 "use client";
 
-import { useTheme } from "next-themes";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,12 +10,11 @@ import { Button } from "./ui/button";
 import { Moon, Sun, MessageSquareWarning, ThumbsUp , Menu } from "lucide-react";
 import Link from 'next/link';
 import { siteConfig } from "@/config/site"
+
 import { Icons } from "./icons";
 
 
 export function ModeToggle() {
-  const { setTheme } = useTheme();
-
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>

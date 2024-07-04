@@ -1,0 +1,1 @@
+jadi saya sebenernya tidak mau melakukan hal ini 

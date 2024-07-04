@@ -1,6 +1,7 @@
 {
   "attachmentFolderPath": "public/images",
-  "propertiesInDocument": "source",
+  "propertiesInDocument": "visible",
   "strictLineBreaks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "newFileLocation": "current"
 }

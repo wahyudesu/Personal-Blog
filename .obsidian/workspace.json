@@ -4,22 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "5e6d8a137cb9183a",
+        "id": "c05b6e2406cb2d27",
         "type": "tabs",
         "children": [
           {
-            "id": "27902eeb5ff8c003",
+            "id": "0ebb08b44b1c2a7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/testing-2.mdx",
+                "file": "content/blog/Review-buku-dikasi-dosen.mdx",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c104a8f08eda49b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/saya mau makan.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00b20215f3db36f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/Review-buku-dikasi-dosen-v2.mdx",
+                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -58,70 +86,11 @@
             }
           },
           {
-            "id": "6e5890a00266b4a5",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "c7e487cc3a049e30",
+            "id": "0e57d340d5f34e64",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
               "state": {}
-            }
-          },
-          {
-            "id": "120fdfec3b2f473c",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {}
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 288.50418853759766
-  },
-  "right": {
-    "id": "01ba5bff5e9588cb",
-    "type": "split",
-    "children": [
-      {
-        "id": "eededcc78d1a5c37",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c48de4eeb3259821",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "content/blog/testing-2.mdx",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "38184d16354738c1",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "content/blog/testing-2.mdx",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
             }
           },
           {
@@ -134,14 +103,69 @@
                 "useHierarchy": true
               }
             }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 324.5
+  },
+  "right": {
+    "id": "01ba5bff5e9588cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "eededcc78d1a5c37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0c4c18f7340f194",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
           },
           {
-            "id": "76800802cea435c5",
+            "id": "e4f5da31b5efe2e1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/testing-2.mdx"
+                "file": "content/blog/Review-buku-dikasi-dosen-v2.mdx"
+              }
+            }
+          },
+          {
+            "id": "2e8f771b988afaac",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "16332cb581f4c260",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "290128eb9e54a7be",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/blog/Review-buku-dikasi-dosen-v2.mdx",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -155,52 +179,68 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-stille:Toggle Stille": false,
       "obsidian-word-sprint:Activate Word Sprint Leaf": false,
-      "dangerzone-writing-plugin:Dangerzone Writing": false
+      "dangerzone-writing-plugin:Dangerzone Writing": false,
+      "audio-recorder:Start/stop recording": false,
+      "markdown-importer:Open format converter": false,
+      "remotely-save:Remotely Save": false,
+      "remotely-secure:Remotely Sync": false
     }
   },
-  "active": "27902eeb5ff8c003",
+  "active": "00b20215f3db36f4",
   "lastOpenFiles": [
-    "content/blog/draft/Title-title.mdx",
-    "content/blog/draft/Why You Should Never Use C.md",
-    "content/blog/draft/Why are most LLMs decoder.md",
-    "content/blog/draft/Steal like an artist.md",
-    "content/blog/draft/The rightway to....mdx",
-    "content/blog/draft/Machine learning website you must.mdx",
-    "content/blog/draft/S1-vs-D4-Pilih-Mana-Yang-Paling-Cocok-Buatmu.mdx",
-    "content/blog/draft/Grid System in Web & UI Design.mdx",
-    "content/blog/draft/Agar memilih Algoritma ML yang tepat.mdx",
-    "content/blog/draft/Ensembling Models.mdx",
-    "content/blog/draft",
-    "content/blog/archive/summon-component.mdx",
-    "content/blog/archive/react-debug-magic.mdx",
-    "content/blog/archive/react-lifecycle-cats.mdx",
+    "content/blog/Review-buku-dikasi-dosen.mdx",
+    "content/blog/Review-buku-dikasi-dosen 1.file/Review-buku-dikasi-dosen 1.file.md",
+    "content/blog/Review-buku-dikasi-dosen-v2.mdx",
+    "content/blog/Review-buku-dikasi-dosen 1.file",
+    "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
+    "content/blog/testing sebuah aplikasi yang tidak erah dilakukan oleh seroang paman dan anaka ananknya yang tidak pernah berkelana di depan layar.md",
+    "content/blog/saya mau makan.md",
+    "public/images/Pasted image 20240702040929.png",
+    "content/blog/README.md",
+    "README.md",
+    "content/blog/Prompt.mdx",
+    "content/blog/Apa-kabar 1.file/Apa-kabar 1.file.md",
+    "content/blog/Apa-kabar 1.file",
+    "2024-07-01.md",
+    "content/blog/Understanding-decomposition-in-Machine-learning.mdx",
+    "content/blog/Apa-kabar.mdx",
+    "content/blog/Why-i-start-writing.md",
+    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
+    "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
+    "content/blog/blog.md",
+    "Untitled 1.md",
+    "content/blog/Not in Personal Blog/Medium project.md",
+    "content/Untitled Kanban.md",
+    "content/blog/Writing Project/untuk.md",
+    "content/blog/Writing Project/Index.md",
+    "content/blog/Writing Project/contoh.md",
     "content/blog/archive/Archive.md",
-    "public/static/gif_of_fluent_search_feature_of_chatgpt_integration-1-ada699.gif",
+    "content/blog/Summarized/Latihan nulis.md",
+    "content/draft/Why are most LLMs decoder.md",
+    "content/draft/Why You Should Never Use C.md",
     "Untitled.md",
-    "content/blog/Untitled.md",
-    "content/blog/assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
-    "public/images/cover/blog-post-3.jpg",
+    "Why Not You..md",
+    "public/static/Frame-10-d26e77.jpg",
     "public/images/cover/Frame-10.jpg",
+    "public/images/cover/Frame-10 1.file/Frame-10 1.file.md",
+    "content/blog/assets/Frame-10.jpg",
+    "public/images/cover/blog-post-3.jpg",
+    "content/draft/Steal like an artist.md",
+    "public/static/gif_of_fluent_search_feature_of_chatgpt_integration-1-ada699.gif",
+    "content/blog/assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
     "public/images/cover/blog-post-4.jpg",
     "public/images/cover/blog-post-2.jpg",
     "public/images/cover/blog-post-1.jpg",
-    "public/images/cover/cover-confusion.png",
-    "public/images/hero.png",
     "public/images/images.md",
-    "public/avatar.png",
-    "public/public.md",
-    "content/blog/Archive/Archive.md",
-    "content/blog/blog.md",
-    "content/blog/Draft/Why are most LLMs decoder.md",
-    "README.md"
+    "public/public.md"
   ]
 }

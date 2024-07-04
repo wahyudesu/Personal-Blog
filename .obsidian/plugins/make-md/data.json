@@ -40,13 +40,16 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "content/blog/content/blog/assets",
     "public/public/images/public/images/avatars",
     "public/public/assets",
-    "content/blog",
     "content/blog/content/blog/Cover",
-    "public",
-    "public/public/images"
+    "public/public/images/public/images/cover",
+    "content/blog/content/blog/Still Development",
+    "content/blog/content/blog/Writing Project",
+    "content/blog/content/blog/Summarized/content/blog/Summarized/Specific topic",
+    "content/blog/content/blog/Apa-kabar 1.file",
+    "content/blog",
+    "content/blog/content/blog/Review-buku-dikasi-dosen 1.file"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -61,6 +64,7 @@
     "_assets",
     "_blocks"
   ],
+  "newFileLocation": "current",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
@@ -91,7 +95,7 @@
   "releaseNotesPrompt": 0.9,
   "enableDefaultSpaces": true,
   "showSpacePinIcon": true,
-  "minimalFix": false,
+  "minimalFix": true,
   "experimental": false,
   "systemName": "Personal Blog",
   "defaultSpaceTemplate": "",

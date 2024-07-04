@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: eav2x-uxzdv
+created: 2024-07-03T02:26:06+07:00
