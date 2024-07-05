@@ -142,15 +142,26 @@ const components = {
       {...props}
     />
   ),
-  Image: ({ className, alt, ...props }: { className?: any; alt: string }) => (
+  Image: ({
+    className,
+    alt,
+    src,
+    ...props
+  }: { className?: any; alt: string; src: string }) => (
     <div className="justify-center">
-      <Image className={cn("rounded-md border mb-10", className)} alt={alt}{...props} />
+      <Image
+        className={cn("rounded-md border mb-10", className)}
+        alt={alt}
+        src={src}
+        {...props}
+      />
     </div>
   ),
   Callout: ({ className, ...props }: { className?: any }) => (
     <Callout {...props} />
   ),
 };
+
 interface MdxProps {
   code: any;
 }
