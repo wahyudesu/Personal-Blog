@@ -1,6 +1,6 @@
 ---
 image: /images/cover/
-title: Why i start writing
+title: why I started writing, and you should too
 description: Meski ini bukan pertama kali publikasi, setidaknya ini hal yang perlu saya kenali dalam diri saya
 date: 2024-08-09
 audience: semua orang
@@ -17,3 +17,5 @@ color: var(--mk-color-teal)
 ---
 
 Berangkat dari hal itu, saya rasa menulis adalah hal yang sangat penting, untuk memulai itu saya mulai dari diri saya sendiri 
+
+Percuma membaca tetapi  

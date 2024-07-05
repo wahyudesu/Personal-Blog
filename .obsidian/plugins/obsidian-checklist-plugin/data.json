@@ -1,6 +1,6 @@
 {
   "todoPageName": "todo",
-  "showChecked": false,
+  "showChecked": true,
   "showAllTodos": false,
   "autoRefresh": true,
   "subGroups": false,

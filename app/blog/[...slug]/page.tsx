@@ -32,11 +32,14 @@ async function getPostFromParams(params: PostPageProps["params"]) {
 }
 
 // SEO
-export async function generateMetadata({ params }: PostPageProps): Promise<typeof Metadata> {
+export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
   const post = await getPostFromParams(params);
 
   if (!post) {
-    return {};
+    return {
+      title: "Post Not Found",
+      description: "The requested post could not be found.",
+    };
   }
 
   const ogSearchParams = new URLSearchParams();

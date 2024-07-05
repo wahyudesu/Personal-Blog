@@ -1,6 +1,10 @@
 #sop #todo
-# To Do:
-- [ ] Learning everything faster
+# Syarat dan ketentuan:
+- [ ] Multiple image
+- [ ] Multiple Emoji
+- [ ] More backlink
+- [ ] Optimal Table of Content
+- [ ] 
 
 ## Menurut aku yang paling penting itu
 1. Hook, jadi sebisa mungkin tentuin hook dulu, lalu catat secepat mungkin
