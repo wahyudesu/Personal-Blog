@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 
 import { cn, formatDate } from "@/lib/utils";
 import "@/styles/mdx.css";
-import Metadata from "next";
+import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -33,13 +33,12 @@ async function getPostFromParams(params: PostPageProps["params"]) {
 
 // SEO
 export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
+
+
   const post = await getPostFromParams(params);
 
   if (!post) {
-    return {
-      title: "Post Not Found",
-      description: "The requested post could not be found.",
-    };
+    return {};
   }
 
   const ogSearchParams = new URLSearchParams();
@@ -72,6 +71,8 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
 }
 
 export async function generateStaticParams(): Promise<PostPageProps["params"][]> {
+
+
   return posts.map((post) => ({ slug: post.slugAsParams.split("/") }));
 }
 
@@ -87,6 +88,9 @@ export default async function PostPage({ params }: PostPageProps) {
       <article className="container relative max-w-3xl mx-auto py-12 lg:py-12 prose dark:prose-invert">
         {post.date && (
           <time dateTime={post.date} className="text-muted-foreground block text-sm">
+
+
+
             Published on {formatDate(post.date)}
           </time>
         )}
@@ -98,8 +102,8 @@ export default async function PostPage({ params }: PostPageProps) {
             <Image
               src="/avatar.png"
               alt={siteConfig.author}
-              width={38}
-              height={38}
+              width={42}
+              height={42}
               className="rounded-full bg-white"
             />
             <div className="flex-shrink text-left leading-none">
