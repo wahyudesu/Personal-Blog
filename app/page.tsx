@@ -13,11 +13,12 @@ const slideUp = {
   init: {
     y: "100%",
   },
-  open: (i) => ({
+  open: (i: number) => ({
     y: "0%",
     transition: { duration: 1, delay: 0.2 * i, ease: [0.22, 1, 0.36, 1] },
   }),
 };
+
 
 export default function Home() {
   const latestPosts = sortPosts(posts).slice(0, 5);
