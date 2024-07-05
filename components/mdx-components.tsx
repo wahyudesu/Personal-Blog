@@ -144,7 +144,7 @@ const components = {
   ),
   Image: ({ className, ...props }: { className?: any }) => (
     <div className="justify-center">
-      <img className={cn("rounded-md border mb-10", className)} {...props} />
+      <Image className={cn("rounded-md border mb-10", className)} {...props} />
     </div>
   ),
   Callout: ({ className, ...props }: { className?: any }) => (
