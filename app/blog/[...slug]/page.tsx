@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 
 import { cn, formatDate } from "@/lib/utils";
 import "@/styles/mdx.css";
- import Metadata from "next";
+import Metadata from "next";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -32,7 +32,7 @@ async function getPostFromParams(params: PostPageProps["params"]) {
 }
 
 // SEO
-export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: PostPageProps): Promise<typeof Metadata> {
   const post = await getPostFromParams(params);
 
   if (!post) {
