@@ -1,5 +1,5 @@
 import { posts } from "#site/content";
-import { PostItem } from "@/components/post-item-blog";
+import { PostItem } from "@/components/post-item";
 import { QueryPagination } from "@/components/query-pagination";
 import { cn, sortPosts } from "@/lib/utils";
 import { Metadata } from "next";

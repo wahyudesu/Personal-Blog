@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 
 import { cn, formatDate } from "@/lib/utils";
 import "@/styles/mdx.css";
-import { Metadata } from "next";
+ import Metadata from "next";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -95,8 +95,8 @@ export default async function PostPage({ params }: PostPageProps) {
             <Image
               src="/avatar.png"
               alt={siteConfig.author}
-              width={42}
-              height={42}
+              width={38}
+              height={38}
               className="rounded-full bg-white"
             />
             <div className="flex-shrink text-left leading-none">

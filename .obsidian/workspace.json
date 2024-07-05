@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c05b6e2406cb2d27",
+        "id": "1bde5a247f645bb6",
         "type": "tabs",
         "children": [
           {
-            "id": "0ebb08b44b1c2a7f",
+            "id": "89ba02c5919b6576",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/Review-buku-dikasi-dosen-v2.mdx",
+                "file": "content/blog/how-to-mastery-any-skill.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/Review-buku-dikasi-dosen-v2.mdx"
+                "file": "content/blog/how-to-mastery-any-skill.mdx"
               }
             }
           },
@@ -136,18 +136,27 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/Review-buku-dikasi-dosen-v2.mdx",
+                "file": "content/blog/how-to-mastery-any-skill.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "1396d7583deca02f",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,32 +171,34 @@
       "obsidian-word-sprint:Activate Word Sprint Leaf": false,
       "dangerzone-writing-plugin:Dangerzone Writing": false,
       "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false,
-      "remotely-save:Remotely Save": false,
-      "remotely-secure:Remotely Sync": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "0ebb08b44b1c2a7f",
+  "active": "89ba02c5919b6576",
   "lastOpenFiles": [
-    "content/blog/Review-buku-dikasi-dosen.mdx",
-    "content/blog/Review-buku-dikasi-dosen-v2.mdx",
-    "content/blog/saya mau makan.md",
-    "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
-    "content/blog/Review-buku-dikasi-dosen 1.file/Review-buku-dikasi-dosen 1.file.md",
-    "content/blog/Review-buku-dikasi-dosen 1.file",
+    "content/blog/Confusion-matrics.mdx",
+    "content/blog/Why-i-start-writing.md",
+    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
+    "content/blog/Saving-Time-With-Fluent-Search.mdx",
     "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
+    "content/blog/Review-buku-dikasi-dosen.mdx",
+    "public/images/cover/blog-post-2.jpg",
+    "public/images/cover/blog-post-1.jpg",
+    "content/blog/how-to-mastery-any-skill.mdx",
+    "public/images/Pasted image 20240704155435.png",
+    "pnpm-lock.yaml.4213139377",
+    "_tmp_6480_70ae32684cad54ff95f3c727d2bf88fc",
+    "pnpm-lock.yaml.2795853715",
+    "node_modules/@custom-react-hooks",
+    "_tmp_25668_9ec7a66e678cefc1789c9afd803f4808",
+    "content/blog/saya mau makan.md",
+    "content/blog/Review-buku-dikasi-dosen 1.file/Review-buku-dikasi-dosen 1.file.md",
     "content/blog/testing sebuah aplikasi yang tidak erah dilakukan oleh seroang paman dan anaka ananknya yang tidak pernah berkelana di depan layar.md",
     "public/images/Pasted image 20240702040929.png",
     "content/blog/README.md",
     "README.md",
-    "content/blog/Prompt.mdx",
     "content/blog/Apa-kabar 1.file/Apa-kabar 1.file.md",
-    "content/blog/Apa-kabar 1.file",
     "2024-07-01.md",
-    "content/blog/Understanding-decomposition-in-Machine-learning.mdx",
-    "content/blog/Apa-kabar.mdx",
-    "content/blog/Why-i-start-writing.md",
-    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
     "content/blog/blog.md",
     "Untitled 1.md",
     "content/blog/Not in Personal Blog/Medium project.md",
@@ -209,9 +220,6 @@
     "content/draft/Steal like an artist.md",
     "public/static/gif_of_fluent_search_feature_of_chatgpt_integration-1-ada699.gif",
     "content/blog/assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
-    "public/images/cover/blog-post-4.jpg",
-    "public/images/cover/blog-post-2.jpg",
-    "public/images/cover/blog-post-1.jpg",
     "public/images/images.md",
     "public/public.md"
   ]
