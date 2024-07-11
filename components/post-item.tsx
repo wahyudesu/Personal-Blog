@@ -29,7 +29,7 @@ export function PostItem({
   return (
     <article className="flex flex-col gap-4 border-border border-b py-3 px-4 transition-colors hover:bg-foreground/10 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
       <div>
-        <h2 className={`${inter.className} text-2xl font-extrabold`}>
+        <h2 className={`${inter.className} text-2xl font-extrabold md-3`}>
           <Link href={"/" + slug}>{title}</Link>
         </h2>
         <div className="flex gap-2 text-sm leading-snug text-muted-foreground">
