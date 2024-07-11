@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1bde5a247f645bb6",
+        "id": "da0e12b4376d66f8",
         "type": "tabs",
         "children": [
           {
-            "id": "89ba02c5919b6576",
+            "id": "640f3730791cc399",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,8 +77,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -165,36 +164,42 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "89ba02c5919b6576",
+  "active": "640f3730791cc399",
   "lastOpenFiles": [
+    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
+    "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
+    "content/blog/Prompt.mdx",
+    "content/blog/Pasted.md",
+    "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
+    "public/images/Pasted image 20240712022046.png",
+    "content/blog/Balance-real-world-and-digital-world.mdx",
+    "content/blog/Simple-journaling-you-should-try.mdx",
+    "content/blog/Untitled.md",
+    "content/blog/README.md",
+    "content/medium/Confusion-matrics.mdx",
+    "content/draft/Steal like an artist.md",
+    "content/blog/blog.md",
+    "content/blog/Apa-kabar.mdx",
+    "content/draft/Why are most LLMs decoder.md",
+    "content/draft/Why You Should Never Use C.md",
+    "content/blog/Understanding-decomposition-in-Machine-learning.mdx",
+    "content/medium",
+    "content/blog/testing sebuah aplikasi yang tidak erah dilakukan oleh seroang paman dan anaka ananknya yang tidak pernah berkelana di depan layar.md",
+    "content/blog/saya mau makan.md",
     "public/avatar.png",
     "public/440133131_2842662972566145_2861150761972392733_n.png",
     "public/440133131_2842662972566145_2861150761972392733_n.webp",
-    "content/blog/Review-buku-dikasi-dosen-v2.mdx",
-    "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
-    "content/blog/Review-buku-dikasi-dosen.mdx",
-    "content/blog/README.md",
-    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
     "content/blog/Why-i-start-writing.md",
-    "content/blog/Confusion-matrics.mdx",
-    "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
-    "content/blog/Understanding-decomposition-in-Machine-learning.mdx",
-    "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
-    "app/blog/[...slug]/cadangan.tsx",
     "public/static/Frame-10-d26e77.jpg",
     "public/static/gif_of_fluent_search_feature_of_chatgpt_integration-1-ada699.gif",
-    "content/blog/Saving-Time-With-Fluent-Search.mdx",
     "public/images/cover/blog-post-2.jpg",
     "public/images/cover/blog-post-1.jpg",
     "public/images/Pasted image 20240704155435.png",
-    "content/blog/saya mau makan.md",
     "content/blog/Review-buku-dikasi-dosen 1.file/Review-buku-dikasi-dosen 1.file.md",
-    "content/blog/testing sebuah aplikasi yang tidak erah dilakukan oleh seroang paman dan anaka ananknya yang tidak pernah berkelana di depan layar.md",
     "public/images/Pasted image 20240702040929.png",
     "README.md",
     "content/blog/Apa-kabar 1.file/Apa-kabar 1.file.md",
     "2024-07-01.md",
-    "content/blog/blog.md",
     "Untitled 1.md",
     "content/blog/Not in Personal Blog/Medium project.md",
     "content/Untitled Kanban.md",
@@ -203,15 +208,8 @@
     "content/blog/Writing Project/contoh.md",
     "content/blog/archive/Archive.md",
     "content/blog/Summarized/Latihan nulis.md",
-    "content/draft/Why are most LLMs decoder.md",
-    "content/draft/Why You Should Never Use C.md",
     "Untitled.md",
     "Why Not You..md",
-    "public/images/cover/Frame-10.jpg",
-    "public/images/cover/Frame-10 1.file/Frame-10 1.file.md",
-    "content/blog/assets/Frame-10.jpg",
-    "content/draft/Steal like an artist.md",
-    "public/images/images.md",
-    "public/public.md"
+    "public/images/cover/Frame-10 1.file/Frame-10 1.file.md"
   ]
 }
