@@ -15,6 +15,8 @@ export function SiteHeader() {
         <div className="flex flex-1 items-center justify-end space-x-2">
           <nav className="flex items-center">
             <ModeToggle />
+              <div className="ml-3"> {/* Memberi margin kiri sebesar 4 */}
+              </div>
             <MobileNav />
           </nav>
         </div>
