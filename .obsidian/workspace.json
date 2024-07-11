@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/how-to-mastery-any-skill.mdx",
+                "file": "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/how-to-mastery-any-skill.mdx"
+                "file": "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/how-to-mastery-any-skill.mdx",
+                "file": "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,9 +167,13 @@
   },
   "active": "89ba02c5919b6576",
   "lastOpenFiles": [
-    "content/blog/README.md",
-    "content/blog/how-to-mastery-any-skill.mdx",
+    "public/avatar.png",
+    "public/440133131_2842662972566145_2861150761972392733_n.png",
+    "public/440133131_2842662972566145_2861150761972392733_n.webp",
+    "content/blog/Review-buku-dikasi-dosen-v2.mdx",
+    "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
     "content/blog/Review-buku-dikasi-dosen.mdx",
+    "content/blog/README.md",
     "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
     "content/blog/Why-i-start-writing.md",
     "content/blog/Confusion-matrics.mdx",
@@ -183,7 +187,6 @@
     "public/images/cover/blog-post-2.jpg",
     "public/images/cover/blog-post-1.jpg",
     "public/images/Pasted image 20240704155435.png",
-    "pnpm-lock.yaml.4213139377",
     "content/blog/saya mau makan.md",
     "content/blog/Review-buku-dikasi-dosen 1.file/Review-buku-dikasi-dosen 1.file.md",
     "content/blog/testing sebuah aplikasi yang tidak erah dilakukan oleh seroang paman dan anaka ananknya yang tidak pernah berkelana di depan layar.md",
@@ -207,9 +210,7 @@
     "public/images/cover/Frame-10.jpg",
     "public/images/cover/Frame-10 1.file/Frame-10 1.file.md",
     "content/blog/assets/Frame-10.jpg",
-    "public/images/cover/blog-post-3.jpg",
     "content/draft/Steal like an artist.md",
-    "content/blog/assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
     "public/images/images.md",
     "public/public.md"
   ]

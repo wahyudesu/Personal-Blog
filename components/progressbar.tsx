@@ -1,22 +1,25 @@
+// components/Progressbar.tsx
 "use client";
 
 import { useScroll, motion } from "framer-motion";
+import { useTheme } from "next-themes";
 
 export default function Progressbar() {
-  const { scrollYProgress } = useScroll(); // destructure scrollYProgress
+  const { scrollYProgress } = useScroll();
+  const { theme } = useTheme();
 
   return (
     <motion.div
       style={{
-        scaleX: scrollYProgress, //scaleX added
+        scaleX: scrollYProgress,
         transformOrigin: "left",
-        background: "#000000",
-        position: "fixed", // Change to fixed
-        bottom: 0, // Position it at the bottom
+        background: theme === 'light' ? '#000000' : '#FFFFFF',
+        position: "fixed",
+        bottom: 0,
         left: 0,
         width: "100%",
-        height: "9px", // Adjust the height as needed
-        zIndex: 1000, // Ensure it is above other elements
+        height: "9px",
+        zIndex: 1000,
       }}
     />
   );
