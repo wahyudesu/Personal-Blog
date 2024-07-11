@@ -41,10 +41,11 @@ export default function Home() {
           <div>
             <Typewriter
               options={{
+                loop: true,
                 wrapperClassName: ("max-w-[42rem] mx-auto text-muted-foreground sm:text-xl text-balance")
               }}
               onInit={(typewriter) => { 
-                typewriter.typeString('Hello World!') 
+                typewriter.typeString('Welcome to my blog!') 
                   .callFunction(() => { 
                     console.log('String typed out!'); 
                   }) 
@@ -57,9 +58,6 @@ export default function Home() {
               }} 
             /> 
           </div>
-          <p className={cn("max-w-[42rem] mx-auto text-muted-foreground sm:text-xl text-balance", "font-sans")}>
-            Welcome to my blog.
-          </p>
           <div className="flex flex-col gap-4 justify-center sm:flex-row">
             <Link
               href="/blog"

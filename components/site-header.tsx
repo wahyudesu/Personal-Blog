@@ -5,7 +5,7 @@ import { buttonVariants } from "./ui/button";
 import { Icons } from "./icons";
 import { MainNav } from "./main-nav";
 import { MobileNav } from "./mobile-nav";
-import { ModeToggle } from "./mode-toggle";
+import { ModeToggle } from "./mode-toggle-2";
 
 export function SiteHeader() {
   return (
