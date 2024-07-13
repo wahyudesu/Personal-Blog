@@ -41,10 +41,12 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
     return {};
   }
 
-  const ogSearchParams = new URLSearchParams();
-  ogSearchParams.set("title", post.title);
-  ogSearchParams.set("type", "Blog Post")
-  ogSearchParams.set("mode", "dark")
+  const url = siteConfig.url
+
+  const ogUrl = new URL(`${url}/api/og`)
+  ogUrl.searchParams.set("heading", post.title)
+  ogUrl.searchParams.set("type", "Blog Post")
+  ogUrl.searchParams.set("mode", "dark")
 
   return {
     title: post.title,
