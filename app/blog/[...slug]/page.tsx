@@ -43,6 +43,8 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
 
   const ogSearchParams = new URLSearchParams();
   ogSearchParams.set("title", post.title);
+  ogSearchParams.set("type", "Blog Post")
+  ogSearchParams.set("mode", "light")
 
   return {
     title: post.title,
