@@ -77,7 +77,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -166,6 +167,8 @@
   },
   "active": "7c8238b4b0157acd",
   "lastOpenFiles": [
+    "public/static/myelin-4f9f93.png",
+    "public/static/gojo-spinning-ba4677.gif",
     "content/blog/assets/gojo-spinning.gif",
     "content/blog/assets/0713.gif",
     "content/blog/Balance-real-world-and-digital-world.mdx",
@@ -178,8 +181,6 @@
     "content/blog/assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
     "content/blog/assets/Frame-10.jpg",
     "public/images/cover/the-talent-code-cover.jpg",
-    "public/images/cover/cover-confusion.png",
-    "public/images/cover/blog-post-1.jpg",
     "content/my note/Kuliyah itu kayak main game.md",
     "content/my note/Disiplin itu tidak mengekang, tapi justru membebaskan.md",
     "content/my note",

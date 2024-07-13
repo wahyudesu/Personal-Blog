@@ -132,11 +132,14 @@ export default async function PostPage({ params }: PostPageProps) {
         )}
         <MDXContent code={post.body} />
         <hr className="mt-12 mb-5" />
-        <div className="flex gap-2 justify-center">
-          {post.tags?.map((tag) => (
-            <Tag tag={tag} key={tag} />
-          ))}
+        <div className="flex flex-col items-center">
+          <div className="flex gap-2 justify-center">
+            {post.tags?.map((tag) => (
+              <Tag tag={tag} key={tag} />
+            ))}
+          </div>
         </div>
+
       </article>
       <Progressbar />
     </>

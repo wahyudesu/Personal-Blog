@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "Why",
-  url: "https://example.com",
+  url: "https://wahyuikbal.blog",
+  ogImage: "/avatar.png",
   description: "Nextjs 14 blog using velite, tailwind and shadcn",
   author: "Wahyu Ikbal",
   suka:"https://wa.me/+6285174346212?text=aku%20suka%20kamu",
