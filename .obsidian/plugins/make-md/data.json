@@ -50,7 +50,8 @@
     "content/blog",
     "public",
     "public/public/images",
-    "content/blog/content/blog/How-to-learn-any-skills-and-master-them-effectively 1.file"
+    "content/blog/content/blog/How-to-learn-any-skills-and-master-them-effectively 1.file",
+    "public/public/images/public/images/cover"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

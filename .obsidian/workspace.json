@@ -11,16 +11,27 @@
             "id": "640f3730791cc399",
             "type": "leaf",
             "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "public"
+              }
+            }
+          },
+          {
+            "id": "6f4a6f1277f23e5a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
+                "file": "content/blog/Simple-journaling-you-should-try.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +88,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -109,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx"
+                "file": "content/blog/Simple-journaling-you-should-try.mdx"
               }
             }
           },
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
+                "file": "content/blog/Simple-journaling-you-should-try.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,14 +176,24 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "640f3730791cc399",
+  "active": "6f4a6f1277f23e5a",
   "lastOpenFiles": [
+    "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
+    "content/blog/assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
+    "content/blog/assets/Frame-10.jpg",
+    "public/images/Pasted image 20240712022046.png",
+    "public/images/Pasted image 20240704155435.png",
+    "public/images/Pasted image 20240702040929.png",
+    "public/images/cover/the-talent-code-cover.jpg",
+    "public/images/cover/cover-confusion.png",
+    "public/images/cover/blog-post-1.jpg",
+    "content/my note/Kuliyah itu kayak main game.md",
+    "content/my note/Disiplin itu tidak mengekang, tapi justru membebaskan.md",
+    "content/my note",
     "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
     "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
     "content/blog/Prompt.mdx",
     "content/blog/Pasted.md",
-    "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
-    "public/images/Pasted image 20240712022046.png",
     "content/blog/Balance-real-world-and-digital-world.mdx",
     "content/blog/Simple-journaling-you-should-try.mdx",
     "content/blog/Untitled.md",
@@ -183,24 +205,15 @@
     "content/draft/Why are most LLMs decoder.md",
     "content/draft/Why You Should Never Use C.md",
     "content/blog/Understanding-decomposition-in-Machine-learning.mdx",
-    "content/medium",
     "content/blog/testing sebuah aplikasi yang tidak erah dilakukan oleh seroang paman dan anaka ananknya yang tidak pernah berkelana di depan layar.md",
     "content/blog/saya mau makan.md",
     "public/avatar.png",
     "public/440133131_2842662972566145_2861150761972392733_n.png",
-    "public/440133131_2842662972566145_2861150761972392733_n.webp",
     "content/blog/Why-i-start-writing.md",
-    "public/static/Frame-10-d26e77.jpg",
-    "public/static/gif_of_fluent_search_feature_of_chatgpt_integration-1-ada699.gif",
-    "public/images/cover/blog-post-2.jpg",
-    "public/images/cover/blog-post-1.jpg",
-    "public/images/Pasted image 20240704155435.png",
     "content/blog/Review-buku-dikasi-dosen 1.file/Review-buku-dikasi-dosen 1.file.md",
-    "public/images/Pasted image 20240702040929.png",
     "README.md",
     "content/blog/Apa-kabar 1.file/Apa-kabar 1.file.md",
     "2024-07-01.md",
-    "Untitled 1.md",
     "content/blog/Not in Personal Blog/Medium project.md",
     "content/Untitled Kanban.md",
     "content/blog/Writing Project/untuk.md",
@@ -209,7 +222,6 @@
     "content/blog/archive/Archive.md",
     "content/blog/Summarized/Latihan nulis.md",
     "Untitled.md",
-    "Why Not You..md",
-    "public/images/cover/Frame-10 1.file/Frame-10 1.file.md"
+    "Why Not You..md"
   ]
 }

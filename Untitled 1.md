@@ -1,1 +1,0 @@
-saya selalu melakukan seperti orang lorang keba yhakan meskipuns aya sendiri tidak pernah bersama dengan orang roang yang telah bersama saya sebelumnya, 
