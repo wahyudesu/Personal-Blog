@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "public/images",
+  "attachmentFolderPath": "content/blog/assets",
   "propertiesInDocument": "visible",
   "strictLineBreaks": true,
   "promptDelete": false,

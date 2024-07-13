@@ -4,34 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "da0e12b4376d66f8",
+        "id": "051f1ecfa18a521e",
         "type": "tabs",
         "children": [
           {
-            "id": "640f3730791cc399",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "public"
-              }
-            }
-          },
-          {
-            "id": "6f4a6f1277f23e5a",
+            "id": "7c8238b4b0157acd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/Simple-journaling-you-should-try.mdx",
+                "file": "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,8 +77,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/Simple-journaling-you-should-try.mdx"
+                "file": "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx"
               }
             }
           },
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/Simple-journaling-you-should-try.mdx",
+                "file": "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,14 +164,19 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6f4a6f1277f23e5a",
+  "active": "7c8238b4b0157acd",
   "lastOpenFiles": [
+    "content/blog/assets/gojo-spinning.gif",
+    "content/blog/assets/0713.gif",
+    "content/blog/Balance-real-world-and-digital-world.mdx",
+    "content/blog/assets/myelin.png",
+    "content/blog/assets/talent-code.jpg",
     "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
-    "content/blog/assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
-    "content/blog/assets/Frame-10.jpg",
     "public/images/Pasted image 20240712022046.png",
     "public/images/Pasted image 20240704155435.png",
-    "public/images/Pasted image 20240702040929.png",
+    "content/blog/Simple-journaling-you-should-try.mdx",
+    "content/blog/assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
+    "content/blog/assets/Frame-10.jpg",
     "public/images/cover/the-talent-code-cover.jpg",
     "public/images/cover/cover-confusion.png",
     "public/images/cover/blog-post-1.jpg",
@@ -194,8 +187,6 @@
     "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
     "content/blog/Prompt.mdx",
     "content/blog/Pasted.md",
-    "content/blog/Balance-real-world-and-digital-world.mdx",
-    "content/blog/Simple-journaling-you-should-try.mdx",
     "content/blog/Untitled.md",
     "content/blog/README.md",
     "content/medium/Confusion-matrics.mdx",
@@ -207,8 +198,6 @@
     "content/blog/Understanding-decomposition-in-Machine-learning.mdx",
     "content/blog/testing sebuah aplikasi yang tidak erah dilakukan oleh seroang paman dan anaka ananknya yang tidak pernah berkelana di depan layar.md",
     "content/blog/saya mau makan.md",
-    "public/avatar.png",
-    "public/440133131_2842662972566145_2861150761972392733_n.png",
     "content/blog/Why-i-start-writing.md",
     "content/blog/Review-buku-dikasi-dosen 1.file/Review-buku-dikasi-dosen 1.file.md",
     "README.md",

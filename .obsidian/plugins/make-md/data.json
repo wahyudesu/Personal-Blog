@@ -51,7 +51,8 @@
     "public",
     "public/public/images",
     "content/blog/content/blog/How-to-learn-any-skills-and-master-them-effectively 1.file",
-    "public/public/images/public/images/cover"
+    "public/public/images/public/images/cover",
+    "content/blog/content/blog/assets"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
