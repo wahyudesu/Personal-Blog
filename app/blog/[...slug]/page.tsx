@@ -2,8 +2,8 @@ import { posts } from "#site/content";
 import { MDXContent } from "@/components/mdx-components";
 import { notFound } from "next/navigation";
 
-import { cn, formatDate } from "@/lib/utils";
 import "@/styles/mdx.css";
+import { cn, formatDate } from "@/lib/utils";
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -24,33 +24,26 @@ interface PostPageProps {
 async function getPostFromParams(params: PostPageProps["params"]) {
   const slug = params?.slug?.join("/");
   const post = posts.find((post) => post.slugAsParams === slug);
-  
-  if (!post) {
-    return null; // Return null when no post is found
-  }
+
   return post;
 }
 
-// SEO
-export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
-
-
+export async function generateMetadata({
+  params,
+}: PostPageProps): Promise<Metadata> {
   const post = await getPostFromParams(params);
 
   if (!post) {
     return {};
   }
 
-  const url = siteConfig.url
-
-  const ogUrl = new URL(`${url}/api/og`)
-  ogUrl.searchParams.set("heading", post.title)
-  ogUrl.searchParams.set("type", "Blog Post")
-  ogUrl.searchParams.set("mode", "dark")
+  const ogSearchParams = new URLSearchParams();
+  ogSearchParams.set("title", post.title);
 
   return {
     title: post.title,
     description: post.description,
+    authors: { name: siteConfig.author },
     openGraph: {
       title: post.title,
       description: post.description,
@@ -74,9 +67,9 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
   };
 }
 
-export async function generateStaticParams(): Promise<PostPageProps["params"][]> {
-
-
+export async function generateStaticParams(): Promise<
+  PostPageProps["params"][]
+> {
   return posts.map((post) => ({ slug: post.slugAsParams.split("/") }));
 }
 
@@ -92,9 +85,6 @@ export default async function PostPage({ params }: PostPageProps) {
       <article className="container relative max-w-3xl mx-auto py-12 lg:py-12 prose dark:prose-invert">
         {post.date && (
           <time dateTime={post.date} className="text-muted-foreground block text-sm">
-
-
-
             Published on {formatDate(post.date)}
           </time>
         )}
