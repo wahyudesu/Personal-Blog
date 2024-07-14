@@ -3,7 +3,7 @@ import { MDXContent } from "@/components/mdx-components";
 import { notFound } from "next/navigation";
 
 import "@/styles/mdx.css";
-import { cn, formatDate } from "@/lib/utils";
+import { absoluteUrl, cn, formatDate } from "@/lib/utils";
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -36,22 +36,24 @@ export async function generateMetadata({
   if (!post) {
     return {};
   }
+  const url = siteConfig.url
 
-  const ogSearchParams = new URLSearchParams();
-  ogSearchParams.set("title", post.title);
+  const ogUrl = new URL(`${url}/api/og`)
+  ogUrl.searchParams.set("heading", post.title)
+  ogUrl.searchParams.set("type", "Blog Post")
+  ogUrl.searchParams.set("mode", "dark")
 
   return {
     title: post.title,
     description: post.description,
-    authors: { name: siteConfig.author },
     openGraph: {
       title: post.title,
       description: post.description,
       type: "article",
-      url: post.slug,
+      url: absoluteUrl(post.slug),
       images: [
         {
-          url: `/api/og?${ogSearchParams.toString()}`,
+          url: ogUrl.toString(),
           width: 1200,
           height: 630,
           alt: post.title,
@@ -62,9 +64,9 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: post.title,
       description: post.description,
-      images: [`/api/og?${ogSearchParams.toString()}`],
+      images: [ogUrl.toString()],
     },
-  };
+  }
 }
 
 export async function generateStaticParams(): Promise<

@@ -11,7 +11,8 @@ const interBold = fetch(
 export async function GET(req: NextRequest) {
   try {
     const fontBold = await interBold;
-
+    
+    const url = new URL(req.url)
     const { searchParams } = req.nextUrl;
     const title = searchParams.get("title");
 

@@ -2,6 +2,7 @@ import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import { Post } from "#site/content";
 import { slug } from "github-slugger";
+import { siteConfig } from "@/config/site";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -47,4 +48,8 @@ export function getPostsByTagSlug(posts: Array<Post>, tag: string) {
     const slugifiedTags = post.tags.map(tag => slug(tag))
     return slugifiedTags.includes(tag)
   })
+}
+
+export function absoluteUrl(path: string) {
+  return `${siteConfig.url}${path}`;
 }
