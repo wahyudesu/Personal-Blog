@@ -1,18 +1,7 @@
 import { ImageResponse } from 'next/og';
 
-const interRegular = fetch(
-  new URL("../../../assets/fonts/Inter-Regular.ttf", import.meta.url)
-).then((res) => res.arrayBuffer())
-
-const interBold = fetch(
-  new URL("../../../assets/fonts/CalSans-SemiBold.woff", import.meta.url)
-).then((res) => res.arrayBuffer())
-
 export async function GET(request: Request) {
   try {
-    const fontRegular = await interRegular
-    const fontBold = await interBold
-
     const { searchParams } = new URL(request.url);
  
     // ?title=<title>
