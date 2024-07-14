@@ -1,13 +1,11 @@
 import { posts } from "#site/content";
 import { MDXContent } from "@/components/mdx-components";
 import { notFound } from "next/navigation";
-
 import "@/styles/mdx.css";
 import { absoluteUrl, cn, formatDate } from "@/lib/utils";
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-
 import { siteConfig } from "@/config/site";
 import { Tag } from "@/components/tag";
 import { buttonVariants } from "@/components/ui/button";
@@ -36,12 +34,10 @@ export async function generateMetadata({
   if (!post) {
     return {};
   }
-  const url = siteConfig.url
-
-  const ogUrl = new URL(`${url}/api/og`)
-  ogUrl.searchParams.set("heading", post.title)
-  ogUrl.searchParams.set("type", "Blog Post")
-  ogUrl.searchParams.set("mode", "dark")
+  
+  const url = siteConfig.url;
+  const ogUrl = new URL(`${url}/api/og`);
+  ogUrl.searchParams.set("title", post.title);
 
   return {
     title: post.title,
@@ -66,7 +62,7 @@ export async function generateMetadata({
       description: post.description,
       images: [ogUrl.toString()],
     },
-  }
+  };
 }
 
 export async function generateStaticParams(): Promise<
@@ -111,11 +107,6 @@ export default async function PostPage({ params }: PostPageProps) {
           </div>
           <ModeToggle />
         </div>
-        {/* <div className="flex gap-2">
-          {post.tags?.map((tag) => (
-            <Tag tag={tag} key={tag} />
-          ))}
-        </div> */}
         {post.image && (
           <Image
             src={post.image}
@@ -135,7 +126,6 @@ export default async function PostPage({ params }: PostPageProps) {
             ))}
           </div>
         </div>
-
       </article>
       <Progressbar />
     </>

@@ -1,75 +1,74 @@
-import { NextRequest } from "next/server";
-import { ImageResponse } from "next/og";
-import { siteConfig } from "@/config/site";
-
-export const runtime = "edge";
-
-const interBold = fetch(
-  new URL("../../../assets/fonts/Inter-Bold.ttf", import.meta.url)
-).then((res) => res.arrayBuffer());
-
-export async function GET(req: NextRequest) {
+import { ImageResponse } from 'next/og';
+// App router includes @vercel/og.
+// No need to install it.
+ 
+export async function GET(request: Request) {
   try {
-    const fontBold = await interBold;
-    
-    const url = new URL(req.url)
-    const { searchParams } = req.nextUrl;
-    const title = searchParams.get("title");
-
-    if (!title) {
-      return new Response("No title provided", { status: 500 });
-    }
-
-    const heading =
-      title.length > 140 ? `${title.substring(0, 140)}...` : title;
-
+    const { searchParams } = new URL(request.url);
+ 
+    // ?title=<title>
+    const hasTitle = searchParams.has('title');
+    const title = hasTitle
+      ? searchParams.get('title')?.slice(0, 100)
+      : 'My default title';
+ 
     return new ImageResponse(
       (
-        <div tw="flex relative flex-col p-12 w-full h-full items-start text-black bg-white">
-          <div tw="flex items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M4 11a9 9 0 0 1 9 9" />
-              <path d="M4 4a16 16 0 0 1 16 16" />
-              <circle cx="5" cy="19" r="1" />
-            </svg>
-            <p tw="ml-2 font-bold text-2xl">JollyBlog</p>
+        <div
+          style={{
+            backgroundColor: 'black',
+            backgroundSize: '150px 150px',
+            height: '100%',
+            width: '100%',
+            display: 'flex',
+            textAlign: 'center',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column',
+            flexWrap: 'nowrap',
+          }}
+        >
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              justifyItems: 'center',
+            }}
+          >
+            <img
+              alt="Vercel"
+              height={200}
+              src="data:image/svg+xml,%3Csvg width='116' height='100' fill='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M57.5 0L115 100H0L57.5 0z' /%3E%3C/svg%3E"
+              style={{ margin: '0 30px' }}
+              width={232}
+            />
           </div>
-          <div tw="flex flex-col flex-1 py-10">
-            <div tw="flex text-xl uppercase font-bold tracking-tight font-normal">
-              BLOG POST
-            </div>
-            <div tw="flex text-[80px] font-bold text-[50px]">{heading}</div>
-          </div>
-          <div tw="flex items-center w-full justify-between">
-            <div tw="flex text-xl">{siteConfig.url}</div>
-            <div tw="flex items-center text-xl">
-              <div tw="flex ml-2">{siteConfig.links.github}</div>
-            </div>
+          <div
+            style={{
+              fontSize: 60,
+              fontStyle: 'normal',
+              letterSpacing: '-0.025em',
+              color: 'white',
+              marginTop: 30,
+              padding: '0 120px',
+              lineHeight: 1.4,
+              whiteSpace: 'pre-wrap',
+            }}
+          >
+            {title}
           </div>
         </div>
       ),
       {
         width: 1200,
         height: 630,
-        fonts: [
-          {
-            name: "Inter",
-            data: fontBold,
-            style: "normal",
-            weight: 700,
-          },
-        ],
-      }
+      },
     );
-  } catch (error) {
-    return new Response("Failed to generate image", { status: 500 });
+  } catch (e: any) {
+    console.log(`${e.message}`);
+    return new Response(`Failed to generate the image`, {
+      status: 500,
+    });
   }
 }
