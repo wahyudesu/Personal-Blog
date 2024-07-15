@@ -1,10 +1,11 @@
 #sop #todo
 # Syarat dan ketentuan:
-- [ ] Multiple image
-- [ ] Multiple Emoji
-- [ ] More backlink
-- [ ] Optimal Table of Content
-- [ ] 
+- [ ] Research Tittle dari referensi website
+- [ ] Lengkapi metadata
+- [ ] Hook
+- [ ] Alur konten
+- [ ] Assets Cover, Image, gif
+- [ ] Backlink
 
 ## Menurut aku yang paling penting itu
 1. Hook, jadi sebisa mungkin tentuin hook dulu, lalu catat secepat mungkin
