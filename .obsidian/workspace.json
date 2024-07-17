@@ -8,19 +8,46 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7c8238b4b0157acd",
+            "id": "f788ffeaa67f53fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/Simple-journaling-you-should-try-[With-Template].mdx",
+                "file": "content/blog/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce3e6015606355ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15e9f4814d90f244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -49,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hook",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,16 +136,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/Simple-journaling-you-should-try-[With-Template].mdx"
+                "file": "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx"
               }
-            }
-          },
-          {
-            "id": "2e8f771b988afaac",
-            "type": "leaf",
-            "state": {
-              "type": "online.larslockefeer.obsidian-plugin-todo",
-              "state": {}
             }
           },
           {
@@ -127,14 +146,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/Simple-journaling-you-should-try-[With-Template].mdx",
+                "file": "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "182e2d2f8420fb4b",
+            "id": "67b57487c6834909",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -142,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,31 +175,38 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "markdown-importer:Open format converter": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-stille:Toggle Stille": false,
       "obsidian-word-sprint:Activate Word Sprint Leaf": false,
-      "dangerzone-writing-plugin:Dangerzone Writing": false,
-      "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false
+      "dangerzone-writing-plugin:Dangerzone Writing": false
     }
   },
-  "active": "7c8238b4b0157acd",
+  "active": "15e9f4814d90f244",
   "lastOpenFiles": [
-    "content/blog/Saving-Time-With-Fluent-Search.mdx",
-    "content/blog/Simple-journaling-you-should-try-[With-Template].mdx",
+    "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
     "content/blog/README.md",
     "content/blog/Prompt.mdx",
-    "content/draft/Ensembling Models.mdx",
-    "content/draft/Balance-real-world-and-digital-world.mdx",
+    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
+    "content/blog/BEST Markdown Editor 2024 (My TOP Recommendation).mdx",
+    "content/blog/Belajar hook.md",
+    "content/blog/5 common mistakes when managing your task (that you're probably doing).mdx",
+    "public/images/cover/F-S.png.~tmp",
+    "public/images/cover/F-S.png",
+    "public/images/cover/fluent-search.gif",
+    "public/images/cover/fluent-search.gif.crdownload",
+    "content/blog/5 common mistakes when managing time (that you're probably doing).mdx",
     "content/blog/Template 2.mdx",
-    "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
-    "content/blog/Understanding-decomposition-in-Machine-learning.mdx",
-    "content/draft/S1-vs-D4-Pilih-Mana-Yang-Paling-Cocok-Buatmu.mdx",
+    "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
+    "content/Video/S1 apa D4.md",
+    "content/Video/KORIKA AI Mentoring.md",
+    "content/Video/Life management training.md",
+    "content/blog/4.md",
+    "content/blog/assets/Pasted image 20240715184609.png",
     "content/draft/Steal like an artist.md",
     "content/draft/Why are most LLMs decoder.md",
     "content/draft/Why You Should Never Use C.md",
-    "content/draft/Agar memilih Algoritma ML yang tepat.mdx",
-    "content/medium/Confusion-matrics.mdx",
     "content/blog/Why-i-start-writing.md",
     "public/static/myelin-4f9f93.png",
     "public/static/gojo-spinning-ba4677.gif",
@@ -189,13 +215,9 @@
     "content/blog/assets/myelin.png",
     "content/blog/assets/talent-code.jpg",
     "public/images/Pasted image 20240712022046.png",
-    "public/images/Pasted image 20240704155435.png",
-    "content/blog/assets/gif_of_fluent_search_feature_of_chatgpt_integration-1.gif",
-    "content/blog/assets/Frame-10.jpg",
     "content/my note/Kuliyah itu kayak main game.md",
     "content/my note/Disiplin itu tidak mengekang, tapi justru membebaskan.md",
     "content/blog/Pasted.md",
-    "content/blog/Untitled.md",
     "content/blog/blog.md",
     "content/blog/testing sebuah aplikasi yang tidak erah dilakukan oleh seroang paman dan anaka ananknya yang tidak pernah berkelana di depan layar.md",
     "content/blog/saya mau makan.md",
@@ -207,10 +229,6 @@
     "content/Untitled Kanban.md",
     "content/blog/Writing Project/untuk.md",
     "content/blog/Writing Project/Index.md",
-    "content/blog/Writing Project/contoh.md",
-    "content/blog/archive/Archive.md",
-    "content/blog/Summarized/Latihan nulis.md",
-    "Untitled.md",
-    "Why Not You..md"
+    "content/blog/Writing Project/contoh.md"
   ]
 }

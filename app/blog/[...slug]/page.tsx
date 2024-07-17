@@ -113,7 +113,7 @@ export default async function PostPage({ params }: PostPageProps) {
             alt={post.title}
             width={720}
             height={405}
-            className="mt-1 bg-muted rounded-md border transition-colors"
+            className="mt-1 bg-muted rounded-xl border transition-colors"
             priority
           />
         )}

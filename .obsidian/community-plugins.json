@@ -1,17 +1,14 @@
 [
   "obsidian-reading-time",
   "obsidian-prozen",
-  "obsidian-markdown-file-suffix",
-  "edit-mdx",
   "obsidian-kanban",
-  "mdx-as-md-obsidian",
-  "mdx",
   "obsidian-stille",
   "obsidian-word-sprint",
   "make-md",
   "dangerzone-writing-plugin",
   "obsidian-hide-sidebars-when-narrow",
-  "obsidian-plugin-todo",
   "obsidian-emoji-toolbar",
-  "obsidian-checklist-plugin"
+  "obsidian-checklist-plugin",
+  "mdx-as-md-obsidian",
+  "obsidian-markdown-file-suffix"
 ]

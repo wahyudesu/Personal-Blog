@@ -6,6 +6,7 @@
 - [ ] Alur konten
 - [ ] Assets Cover, Image, gif
 - [ ] Backlink
+- [ ] Penutup
 
 ## Menurut aku yang paling penting itu
 1. Hook, jadi sebisa mungkin tentuin hook dulu, lalu catat secepat mungkin
@@ -26,10 +27,21 @@
 3. Personal blog - Menceritakan pengalaman pribadi 
 Sebenarnya w agak bingung si medium personal page ama personal blog bedanya apa, tapi ya coba ditulis dan jadiin dulu lah, buat nanti hasil akhirnya mau dipublish dimana ya nanti
 ### Inspiration
-- Medium: 
+- Medium
 - Hackernoon
+- The verge
+- Youtube & Reels
+- Deeptash
 
 ## Information
 Merah : Priority High
 Orange: Priority medium, 
 Green: Done, a little bit modification
+
+## Framework 
+- YouTube+Hackernoon= Personal Blog
+- Reels+Experience = Personal Blog
+- Article+article = Personal Blog
+
+## Judul 
+- What is PPC? Pay-Per-Click Explained
