@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
+                "file": "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx"
+                "file": "content/blog/Saving-Your-Time-With-Fluent-Search.mdx"
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
+                "file": "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,8 +156,9 @@
       "dangerzone-writing-plugin:Dangerzone Writing": false
     }
   },
-  "active": "15e9f4814d90f244",
+  "active": "804521f1551f4418",
   "lastOpenFiles": [
+    "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
     "content/blog/Prompt.mdx",
     "content/blog/README.md",
     "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
@@ -169,7 +170,6 @@
     "content/blog/How to try to be better - Here's how.mdx",
     "content/blog/Eishower matrix and bullet journal.mdx",
     "content/blog/Don't use pomodoro use flowmoro instead.mdx",
-    "content/blog/BEST Markdown Editor 2024 (My TOP Recommendation).mdx",
     "content/blog/Belajar hook.md",
     "public/static/plugin-fs-f5890c.png",
     "content/blog/assets/Plugin-fs.png",
