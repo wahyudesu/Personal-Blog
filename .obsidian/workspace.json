@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
+                "file": "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/Saving-Your-Time-With-Fluent-Search.mdx"
+                "file": "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx"
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
+                "file": "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,22 +158,23 @@
   },
   "active": "15e9f4814d90f244",
   "lastOpenFiles": [
-    "public/static/plugin-fs-f5890c.png",
-    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
-    "content/blog/assets/Plugin-fs.png",
+    "content/blog/Prompt.mdx",
+    "content/blog/README.md",
     "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
-    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
+    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
+    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal (conflict 2024-07-18-03-01-28).mdx",
+    "content/blog/Template 2.mdx",
+    "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
+    "content/blog/how to actually look smart.mdx",
     "content/blog/How to try to be better - Here's how.mdx",
     "content/blog/Eishower matrix and bullet journal.mdx",
-    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal (conflict 2024-07-18-03-01-28).mdx",
     "content/blog/Don't use pomodoro use flowmoro instead.mdx",
-    "content/blog/Multitasking.md",
-    "content/blog/5 common mistakes when managing your task (that you're probably doing).mdx",
-    "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
-    "content/blog/README.md",
-    "content/blog/Untitled.md",
-    "content/blog/Prompt.mdx",
+    "content/blog/BEST Markdown Editor 2024 (My TOP Recommendation).mdx",
     "content/blog/Belajar hook.md",
+    "public/static/plugin-fs-f5890c.png",
+    "content/blog/assets/Plugin-fs.png",
+    "content/blog/Multitasking.md",
+    "content/blog/Untitled.md",
     "public/images/cover/F-S.png",
     "public/images/cover/fluent-search.gif",
     "content/Video/S1 apa D4.md",
@@ -190,7 +191,6 @@
     "content/blog/assets/gojo-spinning.gif",
     "content/blog/assets/0713.gif",
     "content/blog/assets/myelin.png",
-    "content/blog/assets/talent-code.jpg",
     "content/my note/Kuliyah itu kayak main game.md",
     "content/my note/Disiplin itu tidak mengekang, tapi justru membebaskan.md",
     "content/blog/Pasted.md",
