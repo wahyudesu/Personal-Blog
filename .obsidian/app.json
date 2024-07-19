@@ -3,5 +3,6 @@
   "propertiesInDocument": "visible",
   "strictLineBreaks": true,
   "promptDelete": false,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "showRibbon": true
 }

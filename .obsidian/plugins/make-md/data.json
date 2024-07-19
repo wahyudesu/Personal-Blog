@@ -47,11 +47,10 @@
     "content/blog/content/blog/Writing Project",
     "content/blog/content/blog/Summarized/content/blog/Summarized/Specific topic",
     "content/blog/content/blog/Apa-kabar 1.file",
-    "content/blog",
-    "public",
     "public/public/images",
     "content/blog/content/blog/How-to-learn-any-skills-and-master-them-effectively 1.file",
-    "public/public/images/public/images/cover"
+    "public/public/images/public/images/cover",
+    "content/blog"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

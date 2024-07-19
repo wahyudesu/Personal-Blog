@@ -93,6 +93,7 @@ export default function Home() {
                   description={post.description}
                   date={post.date}
                   tags={post.tags}
+                  read={post.read}
                 />
               </li>
             )

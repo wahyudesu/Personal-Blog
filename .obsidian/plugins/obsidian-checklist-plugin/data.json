@@ -10,6 +10,8 @@
   "sortDirectionSubGroups": "new->old",
   "includeFiles": "",
   "lookAndFeel": "classic",
-  "_collapsedSections": [],
+  "_collapsedSections": [
+    "content/blog/README.md"
+  ],
   "_hiddenTags": []
 }

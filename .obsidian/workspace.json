@@ -8,20 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f788ffeaa67f53fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/blog/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce3e6015606355ac",
+            "id": "15e9f4814d90f244",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "15e9f4814d90f244",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx"
+                "file": "content/blog/Saving-Your-Time-With-Fluent-Search.mdx"
               }
             }
           },
@@ -146,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
+                "file": "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -185,20 +158,24 @@
   },
   "active": "15e9f4814d90f244",
   "lastOpenFiles": [
-    "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
-    "content/blog/README.md",
-    "content/blog/Prompt.mdx",
+    "public/static/plugin-fs-f5890c.png",
     "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
-    "content/blog/BEST Markdown Editor 2024 (My TOP Recommendation).mdx",
-    "content/blog/Belajar hook.md",
+    "content/blog/assets/Plugin-fs.png",
+    "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
+    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
+    "content/blog/How to try to be better - Here's how.mdx",
+    "content/blog/Eishower matrix and bullet journal.mdx",
+    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal (conflict 2024-07-18-03-01-28).mdx",
+    "content/blog/Don't use pomodoro use flowmoro instead.mdx",
+    "content/blog/Multitasking.md",
     "content/blog/5 common mistakes when managing your task (that you're probably doing).mdx",
-    "public/images/cover/F-S.png.~tmp",
+    "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
+    "content/blog/README.md",
+    "content/blog/Untitled.md",
+    "content/blog/Prompt.mdx",
+    "content/blog/Belajar hook.md",
     "public/images/cover/F-S.png",
     "public/images/cover/fluent-search.gif",
-    "public/images/cover/fluent-search.gif.crdownload",
-    "content/blog/5 common mistakes when managing time (that you're probably doing).mdx",
-    "content/blog/Template 2.mdx",
-    "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
     "content/Video/S1 apa D4.md",
     "content/Video/KORIKA AI Mentoring.md",
     "content/Video/Life management training.md",
@@ -214,7 +191,6 @@
     "content/blog/assets/0713.gif",
     "content/blog/assets/myelin.png",
     "content/blog/assets/talent-code.jpg",
-    "public/images/Pasted image 20240712022046.png",
     "content/my note/Kuliyah itu kayak main game.md",
     "content/my note/Disiplin itu tidak mengekang, tapi justru membebaskan.md",
     "content/blog/Pasted.md",
@@ -227,8 +203,6 @@
     "2024-07-01.md",
     "content/blog/Not in Personal Blog/Medium project.md",
     "content/Untitled Kanban.md",
-    "content/blog/Writing Project/untuk.md",
-    "content/blog/Writing Project/Index.md",
-    "content/blog/Writing Project/contoh.md"
+    "content/blog/Writing Project/untuk.md"
   ]
 }
