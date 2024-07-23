@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
+                "file": "content/blog/Understanding KT Problem Analysis.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -77,7 +77,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx"
+                "file": "content/blog/Understanding KT Problem Analysis.mdx"
               }
             }
           },
@@ -119,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
+                "file": "content/blog/Understanding KT Problem Analysis.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,24 +159,26 @@
   },
   "active": "15e9f4814d90f244",
   "lastOpenFiles": [
+    "content/blog/assets/Recording 20240722212055.webm",
+    "content/blog/assets/Recording 20240722212031.webm",
+    "content/blog/assets/Recording 20240722212009.webm",
+    "content/blog/assets/Recording 20240722211953.webm",
+    "content/blog/Untitled.md",
+    "content/blog/Understanding KT Problem Analysis.mdx",
+    "content/blog/Content Creation.md",
+    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
+    "content/blog/How to try to be better - Here's how.mdx",
+    "content/blog/5 common mistakes when managing your task (that you're probably doing).mdx",
+    "content/blog/UX Research.mdx",
+    "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
+    "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
     "public/images/cover/cover-journal.jpg",
     "content/blog/assets/cover-journal.jpg",
     "content/blog/assets/aaron-burden-AXqMy8MSSdk-unsplash.jpg",
     "content/blog/assets/digital-bullet.png",
-    "content/blog/Template 2.mdx",
-    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal (conflict 2024-07-18-03-01-28).mdx",
-    "content/blog/Untitled.md",
     "content/blog/README.md",
-    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
     "content/blog/assets/Frame 3.png",
     "content/blog/assets/Pasted image 20240721151540.png",
-    "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
-    "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
-    "content/blog/Prompt.mdx",
-    "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
-    "content/blog/how to actually look smart.mdx",
-    "content/blog/How to try to be better - Here's how.mdx",
-    "content/blog/Eishower matrix and bullet journal.mdx",
     "content/blog/Belajar hook.md",
     "public/static/plugin-fs-f5890c.png",
     "content/blog/assets/Plugin-fs.png",
@@ -186,7 +189,6 @@
     "content/Video/KORIKA AI Mentoring.md",
     "content/Video/Life management training.md",
     "content/blog/4.md",
-    "content/blog/assets/Pasted image 20240715184609.png",
     "content/draft/Steal like an artist.md",
     "content/draft/Why are most LLMs decoder.md",
     "content/draft/Why You Should Never Use C.md",
@@ -202,7 +204,6 @@
     "content/blog/Apa-kabar 1.file/Apa-kabar 1.file.md",
     "2024-07-01.md",
     "content/blog/Not in Personal Blog/Medium project.md",
-    "content/Untitled Kanban.md",
-    "content/blog/Writing Project/untuk.md"
+    "content/Untitled Kanban.md"
   ]
 }
