@@ -20,22 +20,22 @@ const fontHeading = localFont({
 })
 
 export const metadata: Metadata = {
-  title: siteConfig.name,
+  title: siteConfig.author,
   description: siteConfig.description,
   keywords: [
     "Next.js",
+    "Blog",
     "React",
-    "Tailwind CSS",
-    "Server Components",
-    "Radix UI",
+    "Data Science Blog",
+    "Personal Blog",
   ],
   authors: [
     {
-      name: "shadcn",
-      url: "https://shadcn.com",
+      name: siteConfig.author,
+      url: "https://wahyu.framer.website",
     },
   ],
-  creator: "shadcn",
+  creator: siteConfig.author,
   openGraph: {
     type: "website",
     locale: "en_US",

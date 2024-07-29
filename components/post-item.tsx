@@ -1,3 +1,4 @@
+// components/post-item.tsx
 import { CalendarDays, Timer } from "lucide-react";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
@@ -15,6 +16,7 @@ interface PostItemProps {
   tags?: Array<string>;
   image?: string;
   read?: number;
+  showTags?: boolean; // new prop
 }
 
 export function PostItem({
@@ -25,6 +27,7 @@ export function PostItem({
   tags,
   image,
   read,
+  showTags = true, // default to true
 }: PostItemProps) {
   return (
     <article className="flex flex-col gap-4 border-border border-b py-3 px-4 transition-colors hover:bg-foreground/10 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
@@ -46,11 +49,13 @@ export function PostItem({
           </dl>
         </div>
       </div>
-      <div className="flex gap-2 list-none">
-        {tags?.map((tag) => (
-          <Tag tag={tag} key={tag} />
-        ))}
-      </div>
+      {showTags && (
+        <div className="flex gap-2 list-none">
+          {tags?.map((tag) => (
+            <Tag tag={tag} key={tag} />
+          ))}
+        </div>
+      )}
       <div className="max-w-none text-muted-foreground">{description}</div>
     </article>
   );

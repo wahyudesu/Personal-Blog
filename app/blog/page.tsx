@@ -1,16 +1,15 @@
+// pages/blog.tsx
+"use client";
+
+import React, { useState } from 'react';
 import { posts } from "#site/content";
 import { PostItem } from "@/components/post-item";
 import { QueryPagination } from "@/components/query-pagination";
 import { cn, sortPosts } from "@/lib/utils";
-import { Metadata } from "next";
-import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google';
+import { TagToggle } from "@/components/view"; // Import the new TagToggle component
 
-const inter = Inter({ subsets: ['latin'] })
-
-export const metadata: Metadata = {
-  title: "My blog",
-  description: "This is a description",
-};
+const inter = Inter({ subsets: ['latin'] });
 
 const POSTS_PER_PAGE = 5;
 
@@ -20,7 +19,7 @@ interface BlogPageProps {
   };
 }
 
-export default async function BlogPage({ searchParams }: BlogPageProps) {
+export default function BlogPage({ searchParams }: BlogPageProps) {
   const currentPage = Number(searchParams?.page) || 1;
   const sortedPosts = sortPosts(posts.filter((post) => post.published));
   const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
@@ -30,6 +29,14 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
     POSTS_PER_PAGE * currentPage
   );
 
+  // State to toggle tags visibility
+  const [showTags, setShowTags] = useState(true);
+
+  // Function to handle the toggle button click
+  const handleTagToggle = () => {
+    setShowTags(prevState => !prevState);
+  };
+
   return (
     <div className="container max-w-4xl py-6 lg:py-10">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
@@ -37,9 +44,12 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
           <h1 className={cn("inline-block font-black text-4xl lg:text-5xl", "font-heading")}>
             Blog
           </h1>
-          <p className="text-xl text-muted-foreground">
-            A blog built using Velite. Posts are written in MDX.
-          </p>
+          <div className="flex justify-between items-center">
+            <p className="text-xl text-muted-foreground">
+              A blog built using Velite. Posts are written in MDX.
+            </p>
+            <TagToggle onToggle={handleTagToggle} showTags={showTags} />
+          </div>
         </div>
       </div>
       <div className="gap-3 mt-8">
@@ -56,8 +66,9 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                       date={date}
                       title={title}
                       description={description}
-                      tags={tags}
+                      tags={showTags ? tags : undefined} // Only pass tags if showTags is true
                       read={read}
+                      showTags={showTags} // pass the state
                     />
                   </li>
                 );

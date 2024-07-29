@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/Introduction to Generative Ai for data scientists.mdx",
+                "file": "content/blog/UX Research.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -77,7 +77,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/Introduction to Generative Ai for data scientists.mdx"
+                "file": "content/blog/UX Research.mdx"
               }
             }
           },
@@ -119,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/Introduction to Generative Ai for data scientists.mdx",
+                "file": "content/blog/UX Research.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,19 +159,19 @@
   },
   "active": "15e9f4814d90f244",
   "lastOpenFiles": [
+    "app/blog/blog-server.tsx",
+    "app/blog/blog-post.tsx",
+    "components/post-item-gallery.tsx",
+    "components/DescriptionToggle.tsx",
+    "components/description.tsx",
+    "components/view.tsx",
+    "components/mode-toggle-2 copy.tsx",
+    "content/blog/Introduction to Generative Ai for data scientists.mdx",
     "pnpm-lock.yaml.3223830558",
     "_tmp_8984_f2ea318a35d1c3111262a66938479d79",
     "node_modules/@vercel",
-    "_tmp_10284_039e9a060217aa604064e20d65e9a954",
     "public/static/digital-bullet-fbf7c5.png",
-    "pnpm-lock.yaml.818099381",
-    "_tmp_9104_8fd1660b4cda4411e85843de10b2765f",
-    "components/ui/tracing-beam.tsx",
     "content/blog/assets/Pasted image 20240729154901.png",
-    "content/blog/How-to-start-writing.mdx",
-    "content/blog/Introduction to Generative Ai for data scientists.mdx",
-    "content/blog/How-to-Think-with-Data.mdx",
-    "app/book/page.tsx",
     "public/images/cover/data-insight.png",
     "app/icon1.png",
     "app/icon copy.png",
