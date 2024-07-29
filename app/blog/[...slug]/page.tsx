@@ -14,6 +14,7 @@ import { ModeToggle } from "@/components/titik-3";
 import Progressbar from "@/components/progressbar"; // Assuming you have a progressbar component
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "@/components/ui/tracing-beam";
+import ApplauseButton from "@/components/ApplauseButton";
 
 interface PostPageProps {
   params: {
@@ -130,6 +131,7 @@ export default async function PostPage({ params }: PostPageProps) {
         </div>
       </article>
       <Progressbar />
+      <ApplauseButton />
     </TracingBeam>
   );
 }
