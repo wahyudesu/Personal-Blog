@@ -82,7 +82,7 @@ export default async function PostPage({ params }: PostPageProps) {
   }
 
   return (
-    <TracingBeam className="px-6">
+    <TracingBeam className="px-2">
       <article className="container relative max-w-3xl mx-auto py-12 lg:py-12 prose dark:prose-invert">
         {post.date && (
           <time dateTime={post.date} className="text-muted-foreground block text-sm">
