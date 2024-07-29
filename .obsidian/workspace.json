@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/Understanding KT Problem Analysis.mdx",
+                "file": "content/blog/How-to-Think-with-Data.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -77,8 +77,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/Understanding KT Problem Analysis.mdx"
+                "file": "content/blog/How-to-Think-with-Data.mdx"
               }
             }
           },
@@ -120,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/Understanding KT Problem Analysis.mdx",
+                "file": "content/blog/How-to-Think-with-Data.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,32 +158,32 @@
   },
   "active": "15e9f4814d90f244",
   "lastOpenFiles": [
-    "content/blog/assets/Recording 20240722212055.webm",
-    "content/blog/assets/Recording 20240722212031.webm",
-    "content/blog/assets/Recording 20240722212009.webm",
-    "content/blog/assets/Recording 20240722211953.webm",
-    "content/blog/Untitled.md",
-    "content/blog/Understanding KT Problem Analysis.mdx",
-    "content/blog/Content Creation.md",
-    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
-    "content/blog/How to try to be better - Here's how.mdx",
-    "content/blog/5 common mistakes when managing your task (that you're probably doing).mdx",
+    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
+    "content/blog/How-to-Think-with-Data.mdx",
+    "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
+    "content/blog/Introduction to Generative Ai for data scientists.mdx",
     "content/blog/UX Research.mdx",
+    "content/blog/5 common mistakes when managing your task (that you're probably doing).mdx",
+    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
     "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
     "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
+    "content/blog/Understanding KT Problem Analysis.mdx",
+    "content/blog/Introduction to transformers for data scientist .mdx",
+    "content/blog/assets/VAE-works.png",
+    "content/blog/assets/Pasted image 20240715184609.png",
+    "content/blog/assets/Pasted image 20240721151540.png",
+    "content/blog/Belajar hook.md",
+    "content/blog/Content Creation.md",
+    "content/blog/Untitled.md",
     "public/images/cover/cover-journal.jpg",
     "content/blog/assets/cover-journal.jpg",
     "content/blog/assets/aaron-burden-AXqMy8MSSdk-unsplash.jpg",
     "content/blog/assets/digital-bullet.png",
     "content/blog/README.md",
     "content/blog/assets/Frame 3.png",
-    "content/blog/assets/Pasted image 20240721151540.png",
-    "content/blog/Belajar hook.md",
     "public/static/plugin-fs-f5890c.png",
     "content/blog/assets/Plugin-fs.png",
     "content/blog/Multitasking.md",
-    "public/images/cover/F-S.png",
-    "public/images/cover/fluent-search.gif",
     "content/Video/S1 apa D4.md",
     "content/Video/KORIKA AI Mentoring.md",
     "content/Video/Life management training.md",

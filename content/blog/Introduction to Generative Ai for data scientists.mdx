@@ -1,0 +1,136 @@
+---
+image: /images/cover/cover-journal.jpg
+title: Introduction to Generative Ai for data scientists
+description: Mulai dari type, pengertian dan lain sebagainya
+date: 2024-07-21
+audience: semua orang
+latar belakang: saya akhirnya rutin menemukan journalling system yang cocok buatku
+tujuan: Supaya orang lebih suka journalling
+platfom: Hackernoon
+tone:
+  - Information, Educational
+tags:
+  - problem
+  - solving
+read: 4
+progress: 100
+published: true
+---
+## The difference between AI, and generative AI
+Artificial Intelligence, or AI, is a branch of computer science that aims to create machines capable of thinking and acting like humans. AI encompasses various techniques that enable computers to "understand" data, recognize patterns, and produce outputs that resemble human thought processes. One fascinating aspect of AI is its ability to generate new content, known as generative AI. 
+
+Generative AI, a subset of AI, focuses on creating new data rather than merely analyzing or responding to existing information. It uses advanced models to generate realistic outputs, such as images, text, or even music, that mimic real-world data. This distinction lies in generative AI's ability to produce novel content, whereas traditional AI often centers on processing and interpreting existing data.
+## Fundamental Concepts in Generative AI
+
+**Let us start with the basic principles of machine learning.**
+
+Machine learning, often abbreviated as ML, is a type of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. At its core, machine learning is about recognizing patterns in data and using these patterns to make predictions or decisions.
+
+There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, we provide the model with labeled data, teaching it the relationships between the input and the output. Unsupervised learning, on the other hand, involves learning from unlabeled data with the models finding structure and patterns on their own. Lastly, in reinforcement learning, an agent learns to make decisions by performing actions and receiving rewards or penalties.
+
+Data plays a crucial role in machine learning. We feed data into our models, which then use algorithms to learn from this data. The training process involves adjusting the model's internal parameters so it can better predict the output given the input data. Over time, the model improves its ability to make accurate predictions.
+
+**Introduction to generative models.**
+
+Generative models are a type of statistical model used in machine learning that aim to learn the true data distribution of the training set so as to generate new data points with some variations. These models are able to generate new data that mimic the distribution of the training data.
+
+There are several types of generative models, but the most popular are generative adversarial networks (GANs) and variational autoencoders (VAEs). GANs consist of two parts: a generator which creates new data and a discriminator which evaluates the data. On the other hand, VAEs are a type of autoencoder that learns a compressed representation of the input data and uses this representation to generate new data.
+
+Generative models learn to create new data by understanding the structure and patterns in the training data. In a GAN, the generator creates new data while the discriminator evaluates the quality of this data. The generator and discriminator continuously improve through the cycle of generation and evaluation, enabling the model to create increasingly realistic data.
+
+Generative models have a variety of applications. In the field of art and design, they are used to create new images, designs, and even music. In scientific research, they can generate synthetic data for studies or help design new molecules for drug discovery. The potential of generative models is vast and continues to grow as the technology advances.
+### 1. Bayesian Models
+Bayesian Models is These models are a type of statistical model that we use in machine learning. They are based on the principles of Bayes theorem, a fundamental concept in probability theory that deals with conditional probabilities. Conditional probabilities allow us to update our beliefs about the world in the light of new data.
+
+In Bayesian models, the principle is used to update our understanding of the model parameters given the data we have observed. This concept is often referred to as learning from data. Let's delve a bit deeper into how Bayesian models work. The process is called Bayesian updating. It involves using a prior distribution, which represents our initial beliefs and the likelihood function which is derived from the data to compute the posterior distribution which represents our updated beliefs. It's like taking our original assumptions, comparing them with real-world data, and then refining those assumptions.
+
+To implement these Bayesian models, we can use probabilistic programming languages like Stan, PyMC3, or TensorFlow probability. These tools allow us to specify complex Bayesian models and perform efficient inference.
+
+*So where do we use these Bayesian models?*
+
+They find application in a variety of fields, particularly where uncertainty plays a big role. One major application is prediction. Bayesian models are great for making predictions because they provide a full probability distribution over possible outcomes, which not only gives us the most likely prediction, but also tells us how uncertain we are about this prediction.
+
+This makes them incredibly valuable in fields like finance, where they might be used to predict the future value of a stock or in health care, where they might predict patient outcomes.
+
+Moving on, let's discuss autoregressive models.
+
+### 2. Autoregressive models
+These models are a type of statistical model used for predicting future values based on past ones. The underlying principle is that the future is a function of the past.
+
+In other words, subsequent values in a sequence are considered to be dependent on a certain number of previous values. This assumption makes autoregressive models particularly useful for time series analysis, where observations are naturally ordered in time.
+
+Autoregressive models establish a relationship between a current value and its previous values within a dataset.
+
+To do this they use coefficients that weigh the influence of these previous values on the current value. By learning these weights, autoregressive models can make predictions about future data points. This makes them a popular choice for time series forecasting, where we might want to predict future stock prices, temperature trends, or energy consumption based on historical data. Autoregressive models are extensively used in various fields. In finance, they can help predict future stock prices based on past performance.
+
+This ability to forecast future values based on past trends can be very useful for investors. Similarly, in meteorology, autoregressive models are used to forecast weather patterns based on historical weather data.
+
+By understanding the historical weather trends, these models can provide accurate predictions of future weather conditions, which is crucial for planning and preparing for adverse weather conditions
+
+Our next topic is variational autoencoders, often abbreviated as VAEs.
+
+### 3. VAEs
+These are a special type of generative model that bring together ideas from deep learning and Bayesian inference to learn complex data distributions.
+
+VAE stand out due to their ability to not only encode the input data into a compact or latent representation, but also to generate new data by decoding this latent representation.
+
+This gives them the name autoencoder as they encode and then decode data, but with a twist that the encoding is variational, meaning it captures the variations in the data. 
+
+Let's talk a bit more about how VAEs work.
+
+They use a structure called encoder-decoder.
+![[VAE-works.png]]
+
+The encoder takes the input data and compresses it into a lower dimensional latent space. This latent space is a compact representation of the input, capturing its essential features.
+
+The decoder then takes a point from this latent space and decodes it back into the original data space.
+
+This process is optimized during training so that the data generated by the decoder closely matches the original input data, while the latent space captures the underlying distribution of the data.
+
+Variational autoencoders have a host of applications. In the field of image generation, VAEs can be used to generate new images that resemble the training data.
+
+This could be used, for example, to create new designs for products or to generate synthetic training data for other machine learning models. VAEs are also used in anomaly detection. They can be trained on normal data and then used to identify data points that deviate from this norm. This can be very useful in fields like cyber security where you might want to identify unusual patterns of behavior that could indicate a security breach
+
+Next on our list are generative adversarial networks or GANs.
+
+### 4. GANs
+
+These are another type of generative model that have gained a lot of attention in recent years. GANs use two neural networks in a competitive setup: a generator network, which creates new data, and a discriminator network, which evaluates the quality of this data.
+
+The adversarial part comes from the fact that these two networks are trained simultaneously and competitively. The generator tries to fool the discriminator by generating increasingly realistic data while the discriminator tries to get better at distinguishing the real data from the fake.
+
+The dynamics between the generator and the discriminator networks form the core of how GANs work. The generator creates new data aiming to produce data so realistic that the discriminator can't tell it apart from the real thing.
+
+On the other hand, the discriminator evaluates the data, trying to correctly distinguish between real data from the dataset and fake data produced by the generator. The feedback from the discriminator is used to train the generator, helping it to improve over time. Similarly, the feedback from the generator helps the discriminator to improve its ability to distinguish real from fake.
+
+This competitive process continues until the generator becomes so good at its task that the discriminator can no longer tell the difference.
+
+GANs have a wide array of applications, particularly in fields where generating new realistic data is useful. For example, GANs have been used to generate realistic images of faces, animals, and even landscapes. These generated images can be so convincing that it's often hard to tell they were produced by a machine.
+
+Beyond image generation, GANs can also be used to generate synthetic data for a variety of purposes, such as training other machine learning models, simulating different scenarios, or augmenting existing datasets. Let us now move on to transformers in generative AI.
+
+### 5. Transformers
+Transformers is a type of deep learning model that has revolutionized the field of natural language processing. Transformers use a mechanism known as attention, which allows them to weigh the importance of different parts of the input data.
+
+This mechanism helps transformers to capture long-range dependencies in the data, making them highly effective for tasks like language translation and text generation.
+
+Transformers work through an encoder-decoder architecture similar to the one used by variational autoencoders. However, what sets transformers apart is their attention mechanism. The attention mechanism allows the model to focus on different parts of the input data when generating the output. This means that the model can take into account the context of the data, allowing it to generate more accurate and contextually relevant outputs.
+
+For example, in a language translation task, the attention mechanism enables the transformer model to take into account the context of a sentence when translating it, leading to more accurate translations. Transformers have found wide application in the field of natural language processing. In text generation tasks they are capable of generating coherent and contextually relevant text. This can be used, for instance, to generate news articles, write stories, or create realistic dialogues.
+
+In the field of language translation, transformers have achieved state-of-the-art results, being able to translate text from one language to another while preserving the meaning and context
+### 6. Reinforcement learning
+
+Let us now understand the role of reinforcement learning in generative AI. Reinforcement learning is a type of machine learning where an agent learns to make decisions by performing actions in an environment to achieve a goal.
+
+The agent receives rewards or penalties based on the quality of its action, and over time it learns to maximize its cumulative reward by choosing the best actions.
+
+In generative AI, reinforcement learning can be used to guide the data generation process. The idea is to frame the generation of data as a sequence of actions where each action is the generation of a piece of the data.
+
+The quality of the generated data can then be used to provide feedback to the generative model, helping it to improve. For example, in a generative adversarial network, the discriminator can act as a critic that provides feedback to the generator in the form of rewards or penalties.
+
+This feedback can help the generator improve its ability to create realistic data. Reinforcement learning has shown promising results in generative applications. For instance, in the field of music generation, reinforcement learning can be used to guide a model to generate music that aligns with certain style or mood preferences. This involves training the model to recognize and replicate specific musical styles or emotions based on the rewards it receives.
+
+Similarly, in dialogue systems, reinforcement learning can guide a generative model to generate more engaging and contextually appropriate responses.
+
+The model is rewarded for generating responses that lead to a more engaging conversation and penalized for responses that do not. This helps the model to learn to generate more appropriate responses over tim
