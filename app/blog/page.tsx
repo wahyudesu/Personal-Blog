@@ -9,6 +9,7 @@ import { cn, sortPosts } from "@/lib/utils";
 import { Inter } from 'next/font/google';
 import { TagToggle } from "@/components/view"; // Import the new TagToggle component
 
+
 const inter = Inter({ subsets: ['latin'] });
 
 const POSTS_PER_PAGE = 5;

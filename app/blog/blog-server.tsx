@@ -7,6 +7,8 @@ export const metadata: Metadata = {
   description: "This is a description",
 };
 
-export default function BlogPageServer(props) {
+type BlogPageProps = React.ComponentProps<typeof BlogPage>;
+
+export default function BlogPageServer(props: BlogPageProps) {
   return <BlogPage {...props} />;
 }
