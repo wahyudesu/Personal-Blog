@@ -131,7 +131,6 @@ export default async function PostPage({ params }: PostPageProps) {
         </div>
       </article>
       <Progressbar />
-      <ApplauseButton />
     </TracingBeam>
   );
 }
