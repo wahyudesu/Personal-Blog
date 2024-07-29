@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/Mengenal Semantic Search.mdx",
+                "file": "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/Mengenal Semantic Search.mdx"
+                "file": "content/blog/How-to-Think-with-Data-and-get-insight.mdx"
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/Mengenal Semantic Search.mdx",
+                "file": "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,21 +158,21 @@
   },
   "active": "15e9f4814d90f244",
   "lastOpenFiles": [
+    "content/blog/How-to-Think-with-Data.mdx",
+    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
     "content/blog/Introduction to Generative Ai for data scientists.mdx",
+    "content/blog/Mengenal Semantic Search.mdx",
     "content/blog/Introduction to transformers for data scientist .mdx",
     "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
     "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
-    "content/blog/How-to-Think-with-Data.mdx",
     "app/icon1.png",
     "app/icon copy.png",
     "app/icon.png",
     "app/avatar.png",
-    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
     "content/blog/How-to-learn-any-skills-and-master-them-effectively.mdx",
     "content/blog/UX Research.mdx",
     "content/blog/5 common mistakes when managing your task (that you're probably doing).mdx",
     "content/blog/Yang-kudapat-dari-SKS-Time-series-forecasting-1.mdx",
-    "content/blog/Understanding KT Problem Analysis.mdx",
     "content/blog/assets/VAE-works.png",
     "content/blog/assets/Pasted image 20240715184609.png",
     "content/blog/assets/Pasted image 20240721151540.png",
