@@ -12,6 +12,8 @@ import { buttonVariants } from "@/components/ui/button";
 import { Icons } from "@/components/icons";
 import { ModeToggle } from "@/components/titik-3";
 import Progressbar from "@/components/progressbar"; // Assuming you have a progressbar component
+import { twMerge } from "tailwind-merge";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 
 interface PostPageProps {
   params: {
@@ -79,7 +81,7 @@ export default async function PostPage({ params }: PostPageProps) {
   }
 
   return (
-    <>
+    <TracingBeam className="px-6">
       <article className="container relative max-w-3xl mx-auto py-12 lg:py-12 prose dark:prose-invert">
         {post.date && (
           <time dateTime={post.date} className="text-muted-foreground block text-sm">
@@ -128,6 +130,6 @@ export default async function PostPage({ params }: PostPageProps) {
         </div>
       </article>
       <Progressbar />
-    </>
+    </TracingBeam>
   );
 }

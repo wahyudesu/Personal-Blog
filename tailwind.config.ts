@@ -1,5 +1,8 @@
 import type { Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
+const {
+  default: flattenColorPalette,
+} = require('tailwindcss/lib/util/flattenColorPalette');
 
 const config = {
   darkMode: ["class"],
@@ -72,14 +75,35 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "tracing-beam": {
+          '0%': { transform: 'scaleX(0)' },
+          '100%': { transform: 'scaleX(1)' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "tracing-beam": "tracing-beam 1s ease-out forwards",
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
+  plugins: [
+    require("tailwindcss-animate"),
+    require("@tailwindcss/typography"),
+    addVariablesForColors
+  ],
 } satisfies Config;
 
 export default config;
+
+// This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
+function addVariablesForColors({ addBase, theme }: any) {
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
+ 
+  addBase({
+    ":root": newVars,
+  });
+}

@@ -8,6 +8,8 @@ import Link from "next/link";
 import { PostItem } from "@/components/post-item";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect"
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const slideUp = {
   init: {
@@ -100,6 +102,7 @@ export default function Home() {
           ))}
         </ul>
       </section>
+      <Analytics />
     </>
   );
 }

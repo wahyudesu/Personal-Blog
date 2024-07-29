@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/How-to-Think-with-Data.mdx",
+                "file": "content/blog/Introduction to Generative Ai for data scientists.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -77,8 +77,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/How-to-Think-with-Data.mdx"
+                "file": "content/blog/Introduction to Generative Ai for data scientists.mdx"
               }
             }
           },
@@ -120,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/How-to-Think-with-Data.mdx",
+                "file": "content/blog/Introduction to Generative Ai for data scientists.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,18 +158,20 @@
   },
   "active": "15e9f4814d90f244",
   "lastOpenFiles": [
-    "app/book/page.tsx",
-    "app/book",
-    "app/about copy/page.tsx",
-    "app/about copy",
-    "content/blog/How-to-Think-with-Data-and-get-insight.mdx",
+    "pnpm-lock.yaml.3223830558",
+    "_tmp_8984_f2ea318a35d1c3111262a66938479d79",
+    "node_modules/@vercel",
+    "_tmp_10284_039e9a060217aa604064e20d65e9a954",
+    "public/static/digital-bullet-fbf7c5.png",
+    "pnpm-lock.yaml.818099381",
+    "_tmp_9104_8fd1660b4cda4411e85843de10b2765f",
+    "components/ui/tracing-beam.tsx",
+    "content/blog/assets/Pasted image 20240729154901.png",
+    "content/blog/How-to-start-writing.mdx",
     "content/blog/Introduction to Generative Ai for data scientists.mdx",
-    "public/images/cover/data-insight.png",
     "content/blog/How-to-Think-with-Data.mdx",
-    "content/blog/Mengenal Semantic Search.mdx",
-    "content/blog/Introduction to transformers for data scientist .mdx",
-    "content/blog/Saving-Your-Time-With-Fluent-Search.mdx",
-    "content/blog/Simplify-Your-Life-with-a-Digital-Bullet-Journal.mdx",
+    "app/book/page.tsx",
+    "public/images/cover/data-insight.png",
     "app/icon1.png",
     "app/icon copy.png",
     "app/icon.png",
@@ -181,8 +182,6 @@
     "content/blog/Belajar hook.md",
     "content/blog/Content Creation.md",
     "content/blog/Untitled.md",
-    "public/images/cover/cover-journal.jpg",
-    "content/blog/assets/cover-journal.jpg",
     "content/blog/README.md",
     "content/blog/Multitasking.md",
     "content/Video/S1 apa D4.md",

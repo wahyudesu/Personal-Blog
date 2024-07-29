@@ -1,25 +1,28 @@
 ---
 image: /images/cover/cover-journal.jpg
 title: Introduction to Generative Ai for data scientists
-description: Mulai dari type, pengertian dan lain sebagainya
-date: 2024-07-21
+description: Generative AI has been dominating the news lately—but what exactly is it? Here’s what you need to know, and what it means for data scientists.
+date: 2024-08-01
 audience: semua orang
-latar belakang: saya akhirnya rutin menemukan journalling system yang cocok buatku
+latar belakang: dari course udemy
 tujuan: Supaya orang lebih suka journalling
 platfom: Hackernoon
 tone:
   - Information, Educational
 tags:
-  - problem
-  - solving
+  - data scientist
+  - artifical intelligence
+  - LLM
 read: 4
-progress: 100
+progress: 50
 published: true
 ---
-## The difference between AI, and generative AI
-Artificial Intelligence, or AI, is a branch of computer science that aims to create machines capable of thinking and acting like humans. AI encompasses various techniques that enable computers to "understand" data, recognize patterns, and produce outputs that resemble human thought processes. One fascinating aspect of AI is its ability to generate new content, known as generative AI. 
+## Intro
 
-Generative AI, a subset of AI, focuses on creating new data rather than merely analyzing or responding to existing information. It uses advanced models to generate realistic outputs, such as images, text, or even music, that mimic real-world data. This distinction lies in generative AI's ability to produce novel content, whereas traditional AI often centers on processing and interpreting existing data.
+In recent years, artificial intelligence has grown rapidly, changing many areas of technology and industry. As a new data scientist, you might have used AI tools such as ChatGPT, DALL-E, and GitHub Copilot, which have made creating content easier in areas like writing, coding, and image art generation.
+
+Penjelasan generative ai
+pentingnya belajar generative ai untuk data scientist
 ## Fundamental Concepts in Generative AI
 
 **Let us start with the basic principles of machine learning.**
@@ -32,17 +35,24 @@ Data plays a crucial role in machine learning. We feed data into our models, whi
 
 **Introduction to generative models.**
 
-Generative models are a type of statistical model used in machine learning that aim to learn the true data distribution of the training set so as to generate new data points with some variations. These models are able to generate new data that mimic the distribution of the training data.
+Generative AI refers to unsupervised and semi-supervised machine learning algorithms that enable computers to create new content by using existing data such as text, audio, video files, images, and code. These generative models aim to learn the underlying distribution of the training data so they can produce new data points that vary while mimicking the characteristics of the original dataset.
 
 There are several types of generative models, but the most popular are generative adversarial networks (GANs) and variational autoencoders (VAEs). GANs consist of two parts: a generator which creates new data and a discriminator which evaluates the data. On the other hand, VAEs are a type of autoencoder that learns a compressed representation of the input data and uses this representation to generate new data.
 
 Generative models learn to create new data by understanding the structure and patterns in the training data. In a GAN, the generator creates new data while the discriminator evaluates the quality of this data. The generator and discriminator continuously improve through the cycle of generation and evaluation, enabling the model to create increasingly realistic data.
 
-Generative models have a variety of applications. In the field of art and design, they are used to create new images, designs, and even music. In scientific research, they can generate synthetic data for studies or help design new molecules for drug discovery. The potential of generative models is vast and continues to grow as the technology advances.
+Sebelum menjelaskan lebih dalam tenang generative ai, pastikan untuk lebih memahami perbedaan [Generative models dengan Discriminantive models](https://www.turing.com/kb/generative-models-vs-discriminative-models-for-deep-learning)
+## The difference between AI, and generative AI
+
+Artificial Intelligence, or AI, is a branch of computer science that aims to create machines capable of thinking and acting like humans. AI encompasses various techniques that enable computers to "understand" data, recognize patterns, and produce outputs that resemble human thought processes. One fascinating aspect of AI is its ability to generate new content, known as generative AI. 
+
+Generative AI, a subset of AI, focuses on creating new data rather than merely analyzing or responding to existing information. It uses advanced models to generate realistic outputs, such as images, text, or even music, that mimic real-world data. This distinction lies in generative AI's ability to produce novel content, whereas traditional AI often centers on processing and interpreting existing data.
 ### 1. Bayesian Models
 Bayesian Models is These models are a type of statistical model that we use in machine learning. They are based on the principles of Bayes theorem, a fundamental concept in probability theory that deals with conditional probabilities. Conditional probabilities allow us to update our beliefs about the world in the light of new data.
 
 In Bayesian models, the principle is used to update our understanding of the model parameters given the data we have observed. This concept is often referred to as learning from data. Let's delve a bit deeper into how Bayesian models work. The process is called Bayesian updating. It involves using a prior distribution, which represents our initial beliefs and the likelihood function which is derived from the data to compute the posterior distribution which represents our updated beliefs. It's like taking our original assumptions, comparing them with real-world data, and then refining those assumptions.
+
+![[Pasted image 20240729154901.png]]
 
 To implement these Bayesian models, we can use probabilistic programming languages like Stan, PyMC3, or TensorFlow probability. These tools allow us to specify complex Bayesian models and perform efficient inference.
 
@@ -51,6 +61,8 @@ To implement these Bayesian models, we can use probabilistic programming languag
 They find application in a variety of fields, particularly where uncertainty plays a big role. One major application is prediction. Bayesian models are great for making predictions because they provide a full probability distribution over possible outcomes, which not only gives us the most likely prediction, but also tells us how uncertain we are about this prediction.
 
 This makes them incredibly valuable in fields like finance, where they might be used to predict the future value of a stock or in health care, where they might predict patient outcomes.
+
+https://coda.io/@peter-sigurdson/how-bayesian-machine-learning-powers-chatgpt
 
 Moving on, let's discuss autoregressive models.
 
@@ -134,3 +146,9 @@ This feedback can help the generator improve its ability to create realistic dat
 Similarly, in dialogue systems, reinforcement learning can guide a generative model to generate more engaging and contextually appropriate responses.
 
 The model is rewarded for generating responses that lead to a more engaging conversation and penalized for responses that do not. This helps the model to learn to generate more appropriate responses over tim
+
+## Reference
+https://www.altexsoft.com/blog/generative-ai/
+[Complete Guide to Five Generative Models](https://www.coveo.com/blog/generative-models/)
+[Generative AI for Bayesian Computation - arXiv](https://arxiv.org/pdf/2305.14972#:~:text=Bayesian%20Generative%20AI%20(BayesGen-AI,from%20a%20large%20simulated%20dataset).
+[what-developers-need-to-know-about-generative-ai/](https://github.blog/ai-and-ml/generative-ai/what-developers-need-to-know-about-generative-ai/)

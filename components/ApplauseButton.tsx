@@ -1,16 +1,16 @@
-/*
+
 import React, { useState, useEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
 import { ReactComponent as HandsOutline } from "./assets/hands-outline.svg";
 import { ReactComponent as Hands } from "./assets/hands.svg";
 import { ReactComponent as Spark } from "./assets/spark.svg";
 import "@/styles/styles.css";
-*/
+
 /*
  * Read the blog post here:
  * https://letsbuildui.dev/articles/recreating-the-medium-applause-button
  */
-/*
+
 const BUBBLE_THRESHOLD = 1000;
 const CLICK_THRESHOLD = 250;
 const APPLAUSE_MAX = 50;
@@ -73,4 +73,3 @@ const ApplauseButton: React.FC = () => {
   );
 };
 export default ApplauseButton;
-*/
