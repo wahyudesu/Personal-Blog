@@ -4,25 +4,8 @@
 <p align="center">
  <img src="https://i.imgur.com/VgnktQH.png" width="400">
 </p>
-## To do:
-- [x] Minimalist theme
-- [x] Pagination
-- [x] SEO
-- [x] Toggle Report 
-- [x] Tag
-- [ ] Share 
-- [ ] Live views
-- [ ] Fix content .mdx in obsidian
-- [ ] Image in mdx
-- [ ] Edit about page
-- [ ] Advance SEO in Next JS
-- [ ] Fix design PostItem.tsx
-- [ ] Create 2 post item, 1 from page, 1 from blog
-- [ ] Editing post item from blog
-- [ ] Editing post item from page
-- [ ] Tambahkan tombol suka dan tanya
 
-Built with 🛠
+## Built with 🛠
 There are some technologies that used in this project:
 - Rehype
 Markdown stylings 
@@ -45,12 +28,11 @@ Current frontend hosting option for this project.
 - Hostinger
 Cheap domain
 
-Feature:
-- MDX Components
-- Shadcn UI
-- Pagination
-- Dynamic Open Graph Image
+## Feature:
+- Simple / Detail Blog
+- Animation scroll
+- Markdown Blog
 - Syntax Highlighting in code block
-
-## Credits
-Much of the design of this project is taken from shadcn in his projects, such as [shadcn/ui](https://ui.shadcn.com/) and [Taxonomy](https://tx.shadcn.com/)
+- SEO
+- Typewriter animation
+- Interactive blog with applause and share
