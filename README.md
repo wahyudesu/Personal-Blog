@@ -22,15 +22,28 @@
 - [ ] Editing post item from page
 - [ ] Tambahkan tombol suka dan tanya
 
-Tech Stack:
-- Next JS: React meta framework
-- Velite: MDX Processor
-- SEO
-- Typescript
+Built with 🛠
+There are some technologies that used in this project:
 - Rehype
-- Tailwind CSS
-- Tailwind CSS Typography
-- Shadcn/ui
+Markdown stylings 
+- Velite
+For markdown to blog post
+- MDX
+Markdown+react
+- Next.js
+For Frontend.
+- Upstash
+Page views
+- TailwindCSS
+Our favorite css library.
+- ShadcnUI
+Our favorite Next.js component library.
+- Acernity UI
+Animation component library
+- Vercel
+Current frontend hosting option for this project.
+- Hostinger
+Cheap domain
 
 Feature:
 - MDX Components
