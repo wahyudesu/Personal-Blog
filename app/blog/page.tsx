@@ -4,11 +4,11 @@
 import React, { useState } from 'react';
 import { posts } from "#site/content";
 import { PostItem } from "@/components/post-item";
-import { QueryPagination } from "@/components/query-pagination";
 import { cn, sortPosts } from "@/lib/utils";
 import { Inter } from 'next/font/google';
 import { TagToggle } from "@/components/view"; // Import the new TagToggle component
-
+import { Button } from "@/components/ui/button"; // Import the Button component
+import { ReportView } from "./view";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -21,14 +21,21 @@ interface BlogPageProps {
 }
 
 export default function BlogPage({ searchParams }: BlogPageProps) {
-  const currentPage = Number(searchParams?.page) || 1;
+  const initialPage = Number(searchParams?.page) || 1;
   const sortedPosts = sortPosts(posts.filter((post) => post.published));
-  const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
-
-  const displayPosts = sortedPosts.slice(
-    POSTS_PER_PAGE * (currentPage - 1),
-    POSTS_PER_PAGE * currentPage
+  const [currentPage, setCurrentPage] = useState(initialPage);
+  const [displayedPosts, setDisplayedPosts] = useState(
+    sortedPosts.slice(0, POSTS_PER_PAGE * initialPage)
   );
+
+  const totalPosts = sortedPosts.length;
+
+  const loadMorePosts = () => {
+    const nextPage = currentPage + 1;
+    const newPosts = sortedPosts.slice(0, POSTS_PER_PAGE * nextPage);
+    setDisplayedPosts(newPosts);
+    setCurrentPage(nextPage);
+  };
 
   // State to toggle tags visibility
   const [showTags, setShowTags] = useState(true);
@@ -56,9 +63,9 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
       <div className="gap-3 mt-8">
         <div className="col-span-12 col-start-1 sm:col-span-8">
           <hr />
-          {displayPosts?.length > 0 ? (
+          {displayedPosts?.length > 0 ? (
             <ul className="flex flex-col">
-              {displayPosts.map((post) => {
+              {displayedPosts.map((post) => {
                 const { slug, date, title, description, tags, read } = post;
                 return (
                   <li key={slug}>
@@ -78,10 +85,16 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
           ) : (
             <p>Nothing to see here yet</p>
           )}
-          <QueryPagination
-            totalPages={totalPages}
-            className="mt-4"
-          />
+          <div className="flex justify-center mt-4">
+            {displayedPosts.length < totalPosts && (
+              <Button
+                onClick={loadMorePosts}
+                className="mt-4 px-4 py-2"
+              >
+                Load More
+              </Button>
+            )}
+          </div>
         </div>
       </div>
     </div>
