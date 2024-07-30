@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect"
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Metadata } from "next";
 
 const slideUp = {
   init: {
@@ -21,6 +22,10 @@ const slideUp = {
   }),
 };
 
+export const metadata: Metadata = {
+  title: "Wahyu Ikbal Maulana Personal Page",
+  description: "Information about me",
+};
 
 export default function Home() {
   const latestPosts = sortPosts(posts).slice(0, 5);
