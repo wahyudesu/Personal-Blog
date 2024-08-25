@@ -67,7 +67,7 @@ const components = {
   ),
   a: ({ className, ...props }: { className?: any }) => (
     <a
-      className={cn("font-medium underline underline-offset-4", className)}
+      className={cn("font-medium underline underline-offset-4 ", className)}
       {...props}
     />
   ),
@@ -84,7 +84,7 @@ const components = {
     <ol className={cn("prose-ol:list-decimal", className)} {...props} />
   ),
   li: ({ className, ...props }: { className?: any }) => (
-    <li className={cn("mt-2", className)} {...props} />
+    <li className={cn("mt-2 ", className)} {...props} />
   ),
   blockquote: ({ className, ...props }: { className?: any }) => (
     <blockquote

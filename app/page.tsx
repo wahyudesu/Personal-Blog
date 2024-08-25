@@ -22,11 +22,6 @@ const slideUp = {
   }),
 };
 
-export const metadata: Metadata = {
-  title: "Wahyu Ikbal Maulana Personal Page",
-  description: "Information about me",
-};
-
 export default function Home() {
   const latestPosts = sortPosts(posts).slice(0, 5);
 

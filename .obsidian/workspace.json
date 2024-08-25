@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/UX Research.mdx",
+                "file": "content/blog/Understanding-KT-Problem-Analysis.mdx",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3794451b77a99897",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/How-to-Think-with-Data.mdx",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -59,14 +72,6 @@
             }
           },
           {
-            "id": "0e57d340d5f34e64",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
-          },
-          {
             "id": "04ef90ab43b6664b",
             "type": "leaf",
             "state": {
@@ -77,12 +82,11 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 308.5
   },
   "right": {
     "id": "01ba5bff5e9588cb",
@@ -92,6 +96,14 @@
         "id": "eededcc78d1a5c37",
         "type": "tabs",
         "children": [
+          {
+            "id": "0e57d340d5f34e64",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          },
           {
             "id": "e0c4c18f7340f194",
             "type": "leaf",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/UX Research.mdx"
+                "file": "content/blog/Understanding-KT-Problem-Analysis.mdx"
               }
             }
           },
@@ -120,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/UX Research.mdx",
+                "file": "content/blog/Understanding-KT-Problem-Analysis.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,12 +146,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 291.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,29 +170,30 @@
   },
   "active": "15e9f4814d90f244",
   "lastOpenFiles": [
-    "app/blog/blog-server.tsx",
-    "app/blog/blog-post.tsx",
-    "components/post-item-gallery.tsx",
-    "components/DescriptionToggle.tsx",
-    "components/description.tsx",
-    "components/view.tsx",
-    "components/mode-toggle-2 copy.tsx",
+    "content/blog/assets/Pasted image 20240820131453.png",
+    "content/blog/assets/Pasted image 20240820131439.png",
+    "content/blog/Template 2.mdx",
+    "content/blog/How to try to be better - Here's how.mdx",
+    "content/blog/Mengenal Semantic Search.mdx",
+    "content/blog/Deep Compression in Neural Networks in 3 ways.mdx",
+    "content/blog/How-to-start-writing.mdx",
+    "content/blog/5 common mistakes when managing your task (that you're probably doing).mdx",
+    "content/blog/Mungkin-Notion-Bukan-Untuk-Kamu.mdx",
+    "content/blog/UX Research.mdx",
     "content/blog/Introduction to Generative Ai for data scientists.mdx",
-    "pnpm-lock.yaml.3223830558",
-    "_tmp_8984_f2ea318a35d1c3111262a66938479d79",
-    "node_modules/@vercel",
+    "content/blog/Don't use pomodoro use flowmoro instead.mdx",
+    "content/blog/Content Creation.md",
+    "Untitled 1.md",
+    "content/blog/assets/Pasted image 20240801174255.png",
+    "content/blog/assets/Pasted image 20240801085502.png",
+    "content/blog/assets/Pasted image 20240731094224.png",
     "public/static/digital-bullet-fbf7c5.png",
     "content/blog/assets/Pasted image 20240729154901.png",
     "public/images/cover/data-insight.png",
     "app/icon1.png",
     "app/icon copy.png",
     "app/icon.png",
-    "app/avatar.png",
-    "content/blog/assets/VAE-works.png",
-    "content/blog/assets/Pasted image 20240715184609.png",
-    "content/blog/assets/Pasted image 20240721151540.png",
     "content/blog/Belajar hook.md",
-    "content/blog/Content Creation.md",
     "content/blog/Untitled.md",
     "content/blog/README.md",
     "content/blog/Multitasking.md",
@@ -203,7 +215,6 @@
     "README.md",
     "content/blog/Apa-kabar 1.file/Apa-kabar 1.file.md",
     "2024-07-01.md",
-    "content/blog/Not in Personal Blog/Medium project.md",
-    "content/Untitled Kanban.md"
+    "content/blog/Not in Personal Blog/Medium project.md"
   ]
 }
